@@ -1,0 +1,79 @@
+{
+ "business": "Mystical Manes by Kat",
+ "handle": "mystical_manes_by_kat",
+ "city": "Glen Ellyn",
+ "vertical": "hair",
+ "owner": "Kayla",
+ "steps": [
+  {
+   "kind": "quote",
+   "label": "One bookable name",
+   "quote": "KaylaKat \u2014 Licensed Cosmetologist \u2014 hairbykayla",
+   "src": "Profile bio",
+   "fix": "One name clients can actually book."
+  },
+  {
+   "kind": "screen",
+   "screen": "consumer-home",
+   "caption": "This is what your client sees when they tap your link \u2014 three taps to booked."
+  },
+  {
+   "kind": "quote",
+   "label": "Booking stops leaking",
+   "quote": "Before \u2192 After \u2014 she builds her whole grid from transformation posts",
+   "src": "Feed, pinned grid style",
+   "fix": "Before/afters stay her content. The booking just stops leaking."
+  },
+  {
+   "kind": "screen",
+   "screen": "bookie",
+   "caption": "Bookie answers that message in seconds and books it \u2014 while you're mid-appointment."
+  },
+  {
+   "kind": "quote",
+   "label": "Multi-process pricing",
+   "quote": "Dual process! \u2026before and done and loving this hair",
+   "src": "Caption on transformation post",
+   "fix": "Multi-process bookings priced and confirmed automatically."
+  },
+  {
+   "kind": "screen",
+   "screen": "bookie",
+   "caption": "Bookie answers that message in seconds and books it \u2014 while you're mid-appointment."
+  },
+  {
+   "kind": "quote",
+   "label": "Own chair, own book",
+   "quote": "@ind\u00e9pendantsllc \u2014 independent suite operator",
+   "src": "Bio tag",
+   "fix": "She owns the chair. Booked Out owns the book."
+  },
+  {
+   "kind": "screen",
+   "screen": "dashboard",
+   "caption": "This is your morning now \u2014 who's next, what's paid, what's at risk. One screen."
+  },
+  {
+   "kind": "quote",
+   "label": "One inbox everywhere",
+   "quote": "TikTok watermark \u2014 she cross-posts and fields DMs from two apps",
+   "src": "Reels in feed",
+   "fix": "Instagram, text, one inbox."
+  },
+  {
+   "kind": "screen",
+   "screen": "bookie",
+   "caption": "Bookie answers that message in seconds and books it \u2014 while you're mid-appointment."
+  },
+  {
+   "kind": "screen",
+   "screen": "dashboard",
+   "caption": "This is your morning now \u2014 who's next, what's paid, what's at risk. One screen."
+  },
+  {
+   "kind": "screen",
+   "screen": "consumer-home",
+   "caption": "Swipe done. That's your shop, running itself. Want it live this week?"
+  }
+ ]
+}

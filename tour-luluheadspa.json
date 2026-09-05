@@ -1,0 +1,79 @@
+{
+ "business": "Lulu Head Spa",
+ "handle": "luluheadspa",
+ "city": "Naperville",
+ "vertical": "facial",
+ "owner": "Lulu",
+ "steps": [
+  {
+   "kind": "quote",
+   "label": "Support means booked",
+   "quote": "If you, too, want to become a cutie patootie, then support your local small businesses!",
+   "src": "Caption",
+   "fix": "Support starts with actually getting booked."
+  },
+  {
+   "kind": "screen",
+   "screen": "dashboard",
+   "caption": "This is your morning now \u2014 who's next, what's paid, what's at risk. One screen."
+  },
+  {
+   "kind": "quote",
+   "label": "Promos live on the book",
+   "quote": "60 min Head Spa for $99 all summer long! \u2026Click the link in our bio to book",
+   "src": "Promo caption",
+   "fix": "Promos live on the book and expire themselves."
+  },
+  {
+   "kind": "screen",
+   "screen": "settings",
+   "caption": "Set the rule once. It enforces itself on every booking, forever."
+  },
+  {
+   "kind": "quote",
+   "label": "Sunday specials self-fill",
+   "quote": "This Sunday receive a 30 min head spa service for $50 or a 60 min service for $99!",
+   "src": "Promo caption \u2014 one-day specials",
+   "fix": "Sunday specials post, fill, and close out on their own."
+  },
+  {
+   "kind": "screen",
+   "screen": "settings",
+   "caption": "Set the rule once. It enforces itself on every booking, forever."
+  },
+  {
+   "kind": "quote",
+   "label": "Deposit enforces policy",
+   "quote": "In the event of appointments, or cancellations within 24 hours of appointment, you will be charged 100% of service cost.",
+   "src": "Booking policy",
+   "fix": "24-hour policy enforced by deposit, not by memory."
+  },
+  {
+   "kind": "screen",
+   "screen": "calendar",
+   "caption": "The slot offers itself to your waitlist before the chair cools."
+  },
+  {
+   "kind": "quote",
+   "label": "High-ticket confirmed bookings",
+   "quote": "DERIVE Hair Restoration $458 \u2014 3 min Scalp Treatment $508",
+   "src": "Website service menu",
+   "fix": "High-ticket services deserve confirmed bookings, not DMs."
+  },
+  {
+   "kind": "screen",
+   "screen": "bookie",
+   "caption": "Bookie answers that message in seconds and books it \u2014 while you're mid-appointment."
+  },
+  {
+   "kind": "screen",
+   "screen": "dashboard",
+   "caption": "This is your morning now \u2014 who's next, what's paid, what's at risk. One screen."
+  },
+  {
+   "kind": "screen",
+   "screen": "consumer-home",
+   "caption": "Swipe done. That's your shop, running itself. Want it live this week?"
+  }
+ ]
+}

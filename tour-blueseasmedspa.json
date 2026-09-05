@@ -1,0 +1,79 @@
+{
+ "business": "Blue Seas Med Spa",
+ "handle": "blueseasmedspa",
+ "city": "Naperville",
+ "vertical": "medspa",
+ "owner": "Blue Seas",
+ "steps": [
+  {
+   "kind": "quote",
+   "label": "Membership runs itself",
+   "quote": "The Blue Club: $420/month that becomes treatment credit \u00b7 Members receive 15% off all treatments \u00b7 Credits roll over for up to 6 months",
+   "src": "Caption introducing The Blue Club",
+   "fix": "Membership billing, rollover, and booking \u2014 all automatic."
+  },
+  {
+   "kind": "screen",
+   "screen": "settings",
+   "caption": "Set the rule once. It enforces itself on every booking, forever."
+  },
+  {
+   "kind": "quote",
+   "label": "Membership sold automatically",
+   "quote": "Join The Blue Club today through the link in our bio, or ask our team about membership at your next appointment!",
+   "src": "Same caption \u2014 membership sold through DMs",
+   "fix": "Membership questions answered and sold automatically."
+  },
+  {
+   "kind": "screen",
+   "screen": "bookie",
+   "caption": "Bookie answers that message in seconds and books it \u2014 while you're mid-appointment."
+  },
+  {
+   "kind": "quote",
+   "label": "Referrals tracked automatically",
+   "quote": "Refer a friend and you'll both enjoy a $50 credit \u2014 SHARE THE LOVE",
+   "src": "Referral program graphic",
+   "fix": "Referrals tracked and credited without a spreadsheet."
+  },
+  {
+   "kind": "screen",
+   "screen": "bookie",
+   "caption": "Bookie answers that message in seconds and books it \u2014 while you're mid-appointment."
+  },
+  {
+   "kind": "quote",
+   "label": "Prices answered in DM",
+   "quote": "Injectables & Skincare \u00b7 Injectables & Skincare \u00b7 Before & After \u00b7 more",
+   "src": "Profile bio \u2014 repeated because it's what everyone DMs about",
+   "fix": "Prices and consults answered instantly, in the DM."
+  },
+  {
+   "kind": "screen",
+   "screen": "bookie",
+   "caption": "Bookie answers that message in seconds and books it \u2014 while you're mid-appointment."
+  },
+  {
+   "kind": "quote",
+   "label": "Promos expire themselves",
+   "quote": "SUMMER SPECIALS \u2014 a new promo graphic every season",
+   "src": "Feed graphics",
+   "fix": "Promos run on schedule and expire on their own."
+  },
+  {
+   "kind": "screen",
+   "screen": "calendar",
+   "caption": "The slot offers itself to your waitlist before the chair cools."
+  },
+  {
+   "kind": "screen",
+   "screen": "dashboard",
+   "caption": "This is your morning now \u2014 who's next, what's paid, what's at risk. One screen."
+  },
+  {
+   "kind": "screen",
+   "screen": "consumer-home",
+   "caption": "Swipe done. That's your shop, running itself. Want it live this week?"
+  }
+ ]
+}

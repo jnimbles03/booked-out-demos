@@ -1,0 +1,79 @@
+{
+ "business": "Mane Love Salon & Extension Bar",
+ "handle": "manelove.isabellaa",
+ "city": "Branson",
+ "vertical": "hair",
+ "owner": "Isabella",
+ "steps": [
+  {
+   "kind": "quote",
+   "label": "Link-in-bio dead end",
+   "quote": "Click the link in my bio to book!!",
+   "src": "IG post, Aug 31 2026 \u2014 @manelove.isabella",
+   "fix": "One link that actually books \u2014 no bio hop, no dead end."
+  },
+  {
+   "kind": "screen",
+   "screen": "dashboard",
+   "caption": "This is your morning now \u2014 who's next, what's paid, what's at risk. One screen."
+  },
+  {
+   "kind": "quote",
+   "label": "DM-to-book chaos",
+   "quote": "Message me or click the link in my bio to book",
+   "src": "IG post, June 2 2026 \u2014 lived-in blonde",
+   "fix": "Every DM that says \u201chow do I book?\u201d gets answered and booked for you."
+  },
+  {
+   "kind": "screen",
+   "screen": "bookie",
+   "caption": "Bookie answers that message in seconds and books it \u2014 while you're mid-appointment."
+  },
+  {
+   "kind": "quote",
+   "label": "Phone tag while working",
+   "quote": "Call/Text (417) 691-5880 to book your appointment",
+   "src": "IG post \u2014 \u201cDark, Glossy and unforgettable\u201d",
+   "fix": "Texts get booked without you picking up the phone mid-foil."
+  },
+  {
+   "kind": "screen",
+   "screen": "bookie",
+   "caption": "Bookie answers that message in seconds and books it \u2014 while you're mid-appointment."
+  },
+  {
+   "kind": "quote",
+   "label": "3-4 week wait",
+   "quote": "We recommend booking at least 3-4 weeks ahead, especially for color and extension services. If you need something sooner, reach out and we'll do our best to make it work.",
+   "src": "manelovesalon.com FAQ \u2014 \u201cHow far in advance should I book?\u201d",
+   "fix": "\u201cReach out and we'll try\u201d becomes a waitlist that fills your cancellations itself."
+  },
+  {
+   "kind": "screen",
+   "screen": "calendar",
+   "caption": "The slot offers itself to your waitlist before the chair cools."
+  },
+  {
+   "kind": "quote",
+   "label": "Consult gatekeeping",
+   "quote": "Do I need a consultation before booking? Not always, but for big changes (major color, extensions, vivids), we recommend it.",
+   "src": "manelovesalon.com FAQ + \u201cHair extensions \u2014 Pricing Upon Consultation\u201d",
+   "fix": "Consults get screened and scheduled before they ever reach your chair."
+  },
+  {
+   "kind": "screen",
+   "screen": "calendar",
+   "caption": "The slot offers itself to your waitlist before the chair cools."
+  },
+  {
+   "kind": "screen",
+   "screen": "dashboard",
+   "caption": "This is your morning now \u2014 who's next, what's paid, what's at risk. One screen."
+  },
+  {
+   "kind": "screen",
+   "screen": "consumer-home",
+   "caption": "Swipe done. That's your shop, running itself. Want it live this week?"
+  }
+ ]
+}

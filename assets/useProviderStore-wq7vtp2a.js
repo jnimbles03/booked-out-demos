@@ -1,0 +1,1 @@
+import{c as a}from"./react-D8DzrTo2.js";const o=a(l=>({id:null,name:null,vertical:null,setProvider:(r,e,n)=>l({id:r,name:e,vertical:n}),clearProvider:()=>l({id:null,name:null,vertical:null})}));export{o as u};

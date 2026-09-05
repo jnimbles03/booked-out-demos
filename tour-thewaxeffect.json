@@ -1,0 +1,79 @@
+{
+ "business": "The Wax Effect",
+ "handle": "thewaxeffect",
+ "city": "Glen Ellyn",
+ "vertical": "facial",
+ "owner": "Mari",
+ "steps": [
+  {
+   "kind": "quote",
+   "label": "Text-to-book chaos",
+   "quote": "How can I make an apt? Text or call Mari @ 630-220-2237",
+   "src": "thewaxeffect.com/schedule-an-appointment",
+   "fix": "Every one of those texts is an answered booking, automatically."
+  },
+  {
+   "kind": "screen",
+   "screen": "calendar",
+   "caption": "The slot offers itself to your waitlist before the chair cools."
+  },
+  {
+   "kind": "quote",
+   "label": "FAQ answered instantly",
+   "quote": "I just shaved my bikini area and now I want to get a Brazilian. How long should I wait?",
+   "src": "Website FAQ \u2014 questions she answers by hand, one at a time",
+   "fix": "Bookie answers the FAQ the second it's asked."
+  },
+  {
+   "kind": "screen",
+   "screen": "bookie",
+   "caption": "Bookie answers that message in seconds and books it \u2014 while you're mid-appointment."
+  },
+  {
+   "kind": "quote",
+   "label": "Aftercare auto-answers",
+   "quote": "Can I go tanning after my wax? \u2026you will want to wait at least 2 days",
+   "src": "Website FAQ",
+   "fix": "Aftercare answered automatically, every time."
+  },
+  {
+   "kind": "screen",
+   "screen": "bookie",
+   "caption": "Bookie answers that message in seconds and books it \u2014 while you're mid-appointment."
+  },
+  {
+   "kind": "quote",
+   "label": "Prices quoted automatically",
+   "quote": "Brow Shaping 35 \u00b7 Brow Clean-up 25 \u00b7 Brow Wax & Tint 45",
+   "src": "Website menu/price list",
+   "fix": "Prices quoted with every answer. Nobody DMs for the menu."
+  },
+  {
+   "kind": "screen",
+   "screen": "bookie",
+   "caption": "Bookie answers that message in seconds and books it \u2014 while you're mid-appointment."
+  },
+  {
+   "kind": "quote",
+   "label": "Questions answered forever",
+   "quote": "Will I get ingrown bumps\u2026? This would not be unheard of.",
+   "src": "Website FAQ",
+   "fix": "The same twelve questions, answered perfectly, forever."
+  },
+  {
+   "kind": "screen",
+   "screen": "bookie",
+   "caption": "Bookie answers that message in seconds and books it \u2014 while you're mid-appointment."
+  },
+  {
+   "kind": "screen",
+   "screen": "dashboard",
+   "caption": "This is your morning now \u2014 who's next, what's paid, what's at risk. One screen."
+  },
+  {
+   "kind": "screen",
+   "screen": "consumer-home",
+   "caption": "Swipe done. That's your shop, running itself. Want it live this week?"
+  }
+ ]
+}

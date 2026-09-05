@@ -1,0 +1,79 @@
+{
+ "business": "Hair by Sami Jo",
+ "handle": "hairbysamijo",
+ "city": "Naperville",
+ "vertical": "hair",
+ "owner": "Sami",
+ "steps": [
+  {
+   "kind": "quote",
+   "label": "DM-to-book chaos",
+   "quote": "To book DM or text me \ud83d\udc47",
+   "src": "Caption, 106 likes \u2014 her booking instructions",
+   "fix": "They book the moment they ask. No DM tennis."
+  },
+  {
+   "kind": "screen",
+   "screen": "bookie",
+   "caption": "Bookie answers that message in seconds and books it \u2014 while you're mid-appointment."
+  },
+  {
+   "kind": "quote",
+   "label": "Fresh independent book",
+   "quote": "hairbysamijo New keys, New space. Same passion. Today I officially start my journey as an independent stylist in Salon Lofts Naperville. So excited for this new chapter!",
+   "src": "Caption, February 13",
+   "fix": "New space, new book \u2014 build it right from day one."
+  },
+  {
+   "kind": "screen",
+   "screen": "dashboard",
+   "caption": "This is your morning now \u2014 who's next, what's paid, what's at risk. One screen."
+  },
+  {
+   "kind": "quote",
+   "label": "Book fills itself",
+   "quote": "So happy to be working alongside @mistyheather so excited for this next chapter! Can't wait to see everyone and thank you for being apart of this journey!",
+   "src": "Same caption",
+   "fix": "Her book fills itself while she does the hair."
+  },
+  {
+   "kind": "screen",
+   "screen": "dashboard",
+   "caption": "This is your morning now \u2014 who's next, what's paid, what's at risk. One screen."
+  },
+  {
+   "kind": "quote",
+   "label": "Unanswered DMs cost clients",
+   "quote": "BEFORE \u2014 every transformation starts with a message that never got answered",
+   "src": "Education highlight stories",
+   "fix": "Every DM answered in seconds, even mid-color."
+  },
+  {
+   "kind": "screen",
+   "screen": "bookie",
+   "caption": "Bookie answers that message in seconds and books it \u2014 while you're mid-appointment."
+  },
+  {
+   "kind": "quote",
+   "label": "Automatic reviews",
+   "quote": "Client Revie\u2026 \u2014 she pins client reviews to her highlights",
+   "src": "Profile highlights",
+   "fix": "Reviews come in automatically after every visit."
+  },
+  {
+   "kind": "screen",
+   "screen": "bookie",
+   "caption": "Bookie answers that message in seconds and books it \u2014 while you're mid-appointment."
+  },
+  {
+   "kind": "screen",
+   "screen": "dashboard",
+   "caption": "This is your morning now \u2014 who's next, what's paid, what's at risk. One screen."
+  },
+  {
+   "kind": "screen",
+   "screen": "consumer-home",
+   "caption": "Swipe done. That's your shop, running itself. Want it live this week?"
+  }
+ ]
+}

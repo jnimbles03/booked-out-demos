@@ -1,0 +1,79 @@
+{
+ "business": "Curls by Molly",
+ "handle": "curlsbymollyy",
+ "city": "Glen Ellyn",
+ "vertical": "hair",
+ "owner": "Molly",
+ "steps": [
+  {
+   "kind": "quote",
+   "label": "New-client intake form",
+   "quote": "NEW CLIENT INTAKE FORM \u2014 click for new client intake form",
+   "src": "Pinned story highlight, all year",
+   "fix": "New clients never fill out a form. They just book."
+  },
+  {
+   "kind": "screen",
+   "screen": "bookie",
+   "caption": "Bookie answers that message in seconds and books it \u2014 while you're mid-appointment."
+  },
+  {
+   "kind": "quote",
+   "label": "Late-fee enforcement",
+   "quote": "IF YOU ARE MORE THAN 15 MINUTES LATE TO YOUR APPOINTMENT, YOUR SERVICE WILL NEED TO BE RESCHEDULED AND A $50 FEE WILL BE ADDED",
+   "src": "Story highlight: Curl Preparation Policy",
+   "fix": "Deposits and the policy enforce themselves."
+  },
+  {
+   "kind": "screen",
+   "screen": "calendar",
+   "caption": "The slot offers itself to your waitlist before the chair cools."
+  },
+  {
+   "kind": "quote",
+   "label": "Cancel-fee enforcement",
+   "quote": "IF YOU NEED TO CANCEL YOUR ALREADY SCHEDULED, STYLED CURLY, SIDE PART RIGHT IN THE MIDDLE OF YOUR APPOINTMENT WINDOW, A $50 FEE WILL BE ADDED",
+   "src": "Story highlight: Curl Preparation Policy",
+   "fix": "Same-day cancels refill from the waitlist in minutes."
+  },
+  {
+   "kind": "screen",
+   "screen": "calendar",
+   "caption": "The slot offers itself to your waitlist before the chair cools."
+  },
+  {
+   "kind": "quote",
+   "label": "Broken intake link",
+   "quote": "Form over quota. This form has exceeded its allocated quota. \u2014 Jotform",
+   "src": "Her new-client intake link, live during our visit",
+   "fix": "Her intake form was literally broken when we looked. New clients bounced."
+  },
+  {
+   "kind": "screen",
+   "screen": "bookie",
+   "caption": "Bookie answers that message in seconds and books it \u2014 while you're mid-appointment."
+  },
+  {
+   "kind": "quote",
+   "label": "Self-running waitlist",
+   "quote": "Join Waitlist \u2014 the fallback when no dates work",
+   "src": "GlossGenius booking page",
+   "fix": "The waitlist runs itself and texts people when you can't."
+  },
+  {
+   "kind": "screen",
+   "screen": "calendar",
+   "caption": "The slot offers itself to your waitlist before the chair cools."
+  },
+  {
+   "kind": "screen",
+   "screen": "dashboard",
+   "caption": "This is your morning now \u2014 who's next, what's paid, what's at risk. One screen."
+  },
+  {
+   "kind": "screen",
+   "screen": "consumer-home",
+   "caption": "Swipe done. That's your shop, running itself. Want it live this week?"
+  }
+ ]
+}

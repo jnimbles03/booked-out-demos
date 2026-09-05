@@ -1,0 +1,79 @@
+{
+ "business": "T&R Head Spa",
+ "handle": "tr_headspa",
+ "city": "Glen Ellyn",
+ "vertical": "facial",
+ "owner": "T&R",
+ "steps": [
+  {
+   "kind": "quote",
+   "label": "Self-filling waitlist",
+   "quote": "Not seeing a time that works for you? Join our waitlist",
+   "src": "MangoMint booking page",
+   "fix": "The waitlist works itself. Nobody waits on a page that says nothing."
+  },
+  {
+   "kind": "screen",
+   "screen": "calendar",
+   "caption": "The slot offers itself to your waitlist before the chair cools."
+  },
+  {
+   "kind": "quote",
+   "label": "Policy enforces itself",
+   "quote": "We kindly ask for at least 24 hours notice\u2026 50% \u202680% of the scheduled service",
+   "src": "Booking cancellation policy",
+   "fix": "The policy enforces itself \u2014 no honoring it by hand."
+  },
+  {
+   "kind": "screen",
+   "screen": "calendar",
+   "caption": "The slot offers itself to your waitlist before the chair cools."
+  },
+  {
+   "kind": "quote",
+   "label": "Same-day openings broadcast",
+   "quote": "There may be appointments available within the next 30 minutes, please call us at 331-600-7273",
+   "src": "Booking page, when slots run out",
+   "fix": "Same-day openings go out to the whole waitlist instantly."
+  },
+  {
+   "kind": "screen",
+   "screen": "calendar",
+   "caption": "The slot offers itself to your waitlist before the chair cools."
+  },
+  {
+   "kind": "quote",
+   "label": "Group bookings, one chat",
+   "quote": "Groups of 9+ get 20% off. Book today before spots fill up!",
+   "src": "Instagram post",
+   "fix": "Group bookings handled in one conversation, not nine."
+  },
+  {
+   "kind": "screen",
+   "screen": "dashboard",
+   "caption": "This is your morning now \u2014 who's next, what's paid, what's at risk. One screen."
+  },
+  {
+   "kind": "quote",
+   "label": "Memberships run themselves",
+   "quote": "Glow Mentorship \u2014 $58/month: 1 Select service that fits you best each month",
+   "src": "Instagram post",
+   "fix": "Memberships, packages, reminders \u2014 all of it runs itself."
+  },
+  {
+   "kind": "screen",
+   "screen": "settings",
+   "caption": "Set the rule once. It enforces itself on every booking, forever."
+  },
+  {
+   "kind": "screen",
+   "screen": "dashboard",
+   "caption": "This is your morning now \u2014 who's next, what's paid, what's at risk. One screen."
+  },
+  {
+   "kind": "screen",
+   "screen": "consumer-home",
+   "caption": "Swipe done. That's your shop, running itself. Want it live this week?"
+  }
+ ]
+}

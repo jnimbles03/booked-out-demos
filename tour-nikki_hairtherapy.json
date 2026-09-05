@@ -1,0 +1,79 @@
+{
+ "business": "Nikki Lewis Hair Therapy",
+ "handle": "nikki_hairtherapy",
+ "city": "Scottsdale",
+ "vertical": "hair",
+ "owner": "Nikki",
+ "steps": [
+  {
+   "kind": "quote",
+   "label": "DM to get on my books",
+   "quote": "This is your sign to treat yourself \u2014 DM me now to get on my books \ud83d\udc8c",
+   "src": "Clip-In Extension Installs post",
+   "fix": "The booking happens right inside that DM. No back-and-forth, no waiting on you."
+  },
+  {
+   "kind": "screen",
+   "screen": "bookie",
+   "caption": "Bookie answers that message in seconds and books it \u2014 while you're mid-appointment."
+  },
+  {
+   "kind": "quote",
+   "label": "Same CTA, every post",
+   "quote": "Ready for your own hair transformation? Send me a message and book your next appointment!",
+   "src": "Blonding + beaded wefts post, this week \u2014 this CTA closes nearly every post she writes",
+   "fix": "You post it once. Whoever DMs gets whatever is genuinely open, live, at any hour."
+  },
+  {
+   "kind": "screen",
+   "screen": "bookie",
+   "caption": "Bookie answers that message in seconds and books it \u2014 while you're mid-appointment."
+  },
+  {
+   "kind": "quote",
+   "label": "Shade matching by DM",
+   "quote": "Message me a photo, and I'll help you find your shade.",
+   "src": "The Extension x Nikki product posts \u2014 every retail sale starts with a DM she answers by hand",
+   "fix": "Shade questions answered in seconds, day or night \u2014 your retail line stops waiting on your chair time."
+  },
+  {
+   "kind": "screen",
+   "screen": "bookie",
+   "caption": "Bookie answers that message in seconds and books it \u2014 while you're mid-appointment."
+  },
+  {
+   "kind": "quote",
+   "label": "Education in the DMs",
+   "quote": "Think your hair just \"doesn't have volume?\" In many cases, it isn't your hair; it's your cut, styling routine, or products.",
+   "src": "#HairEducation reel \u2014 she teaches in captions, then answers the follow-ups one at a time",
+   "fix": "The same education, answered instantly in every DM. You teach once."
+  },
+  {
+   "kind": "screen",
+   "screen": "bookie",
+   "caption": "Bookie answers that message in seconds and books it \u2014 while you're mid-appointment."
+  },
+  {
+   "kind": "quote",
+   "label": "Consult-first booking",
+   "quote": "That's the difference a personalized consultation can make. Send me a message to book your appointment.",
+   "src": "Consultation post, thanking Danielle",
+   "fix": "Consults book themselves. New clients still get your yes before they sit in your chair."
+  },
+  {
+   "kind": "screen",
+   "screen": "bookie",
+   "caption": "Bookie answers that message in seconds and books it \u2014 while you're mid-appointment."
+  },
+  {
+   "kind": "screen",
+   "screen": "dashboard",
+   "caption": "This is your morning now \u2014 who's next, what's paid, what's at risk. One screen."
+  },
+  {
+   "kind": "screen",
+   "screen": "consumer-home",
+   "caption": "Swipe done. That's your shop, running itself. Want it live this week?"
+  }
+ ]
+}
