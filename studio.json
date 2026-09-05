@@ -50,41 +50,41 @@
    "vertical": "facial",
    "contact": "My Salon Suite 930 Roosevelt Rd #204 \u00b7 thewaxeffect@yahoo.com \u00b7 630-220-2237",
    "why": "Solo esthetician in the same building \u2014 one walk-in loop covers both",
-   "handle": "nikki_hairtherapy",
-   "ig": "https://www.instagram.com/nikki_hairtherapy/",
+   "handle": "thewaxeffect",
+   "ig": "https://www.instagram.com/thewaxeffect/",
    "pins": [
     {
-     "label": "DM to get on my books",
-     "quote": "This is your sign to treat yourself \u2014 DM me now to get on my books \ud83d\udc8c",
-     "src": "Clip-In Extension Installs post",
-     "fix": "The booking happens right inside that DM. No back-and-forth, no waiting on you."
+     "label": "Text-to-book chaos",
+     "quote": "How can I make an apt? Text or call Mari @ 630-220-2237",
+     "src": "thewaxeffect.com/schedule-an-appointment",
+     "fix": "Every one of those texts is an answered booking, automatically."
     },
     {
-     "label": "Same CTA, every post",
-     "quote": "Ready for your own hair transformation? Send me a message and book your next appointment!",
-     "src": "Blonding + beaded wefts post, this week \u2014 this CTA closes nearly every post she writes",
-     "fix": "You post it once. Whoever DMs gets whatever is genuinely open, live, at any hour."
+     "label": "FAQ answered instantly",
+     "quote": "I just shaved my bikini area and now I want to get a Brazilian. How long should I wait?",
+     "src": "Website FAQ \u2014 questions she answers by hand, one at a time",
+     "fix": "Bookie answers the FAQ the second it's asked."
     },
     {
-     "label": "Shade matching by DM",
-     "quote": "Message me a photo, and I'll help you find your shade.",
-     "src": "The Extension x Nikki product posts \u2014 every retail sale starts with a DM she answers by hand",
-     "fix": "Shade questions answered in seconds, day or night \u2014 your retail line stops waiting on your chair time."
+     "label": "Aftercare auto-answers",
+     "quote": "Can I go tanning after my wax? \u2026you will want to wait at least 2 days",
+     "src": "Website FAQ",
+     "fix": "Aftercare answered automatically, every time."
     },
     {
-     "label": "Education in the DMs",
-     "quote": "Think your hair just \"doesn't have volume?\" In many cases, it isn't your hair; it's your cut, styling routine, or products.",
-     "src": "#HairEducation reel \u2014 she teaches in captions, then answers the follow-ups one at a time",
-     "fix": "The same education, answered instantly in every DM. You teach once."
+     "label": "Prices quoted automatically",
+     "quote": "Brow Shaping 35 \u00b7 Brow Clean-up 25 \u00b7 Brow Wax & Tint 45",
+     "src": "Website menu/price list",
+     "fix": "Prices quoted with every answer. Nobody DMs for the menu."
     },
     {
-     "label": "Consult-first booking",
-     "quote": "That's the difference a personalized consultation can make. Send me a message to book your appointment.",
-     "src": "Consultation post, thanking Danielle",
-     "fix": "Consults book themselves. New clients still get your yes before they sit in your chair."
+     "label": "Questions answered forever",
+     "quote": "Will I get ingrown bumps\u2026? This would not be unheard of.",
+     "src": "Website FAQ",
+     "fix": "The same twelve questions, answered perfectly, forever."
     }
    ],
-   "demo": "https://jnimbles03.github.io/booked-out-demos/nikki_hairtherapy.html",
+   "demo": "https://jnimbles03.github.io/booked-out-demos/thewaxeffect.html",
    "angle": null
   },
   {
@@ -115,41 +115,41 @@
    "vertical": "hair",
    "contact": "417 Main St, Glen Ellyn \u00b7 630-469-4040 \u00b7 salon417ge.com",
    "why": "Independent-stylist building on Main St \u2014 each chair is a separate Booked Out prospect",
-   "handle": "manelove.isabellaa",
-   "ig": "https://www.instagram.com/manelove.isabellaa/",
+   "handle": "mystical_manes_by_kat",
+   "ig": "https://www.instagram.com/mystical_manes_by_kat/",
    "pins": [
     {
-     "label": "Link-in-bio dead end",
-     "quote": "Click the link in my bio to book!!",
-     "src": "IG post, Aug 31 2026 \u2014 @manelove.isabella",
-     "fix": "One link that actually books \u2014 no bio hop, no dead end."
+     "label": "One bookable name",
+     "quote": "KaylaKat \u2014 Licensed Cosmetologist \u2014 hairbykayla",
+     "src": "Profile bio",
+     "fix": "One name clients can actually book."
     },
     {
-     "label": "DM-to-book chaos",
-     "quote": "Message me or click the link in my bio to book",
-     "src": "IG post, June 2 2026 \u2014 lived-in blonde",
-     "fix": "Every DM that says \u201chow do I book?\u201d gets answered and booked for you."
+     "label": "Booking stops leaking",
+     "quote": "Before \u2192 After \u2014 she builds her whole grid from transformation posts",
+     "src": "Feed, pinned grid style",
+     "fix": "Before/afters stay her content. The booking just stops leaking."
     },
     {
-     "label": "Phone tag while working",
-     "quote": "Call/Text (417) 691-5880 to book your appointment",
-     "src": "IG post \u2014 \u201cDark, Glossy and unforgettable\u201d",
-     "fix": "Texts get booked without you picking up the phone mid-foil."
+     "label": "Multi-process pricing",
+     "quote": "Dual process! \u2026before and done and loving this hair",
+     "src": "Caption on transformation post",
+     "fix": "Multi-process bookings priced and confirmed automatically."
     },
     {
-     "label": "3-4 week wait",
-     "quote": "We recommend booking at least 3-4 weeks ahead, especially for color and extension services. If you need something sooner, reach out and we'll do our best to make it work.",
-     "src": "manelovesalon.com FAQ \u2014 \u201cHow far in advance should I book?\u201d",
-     "fix": "\u201cReach out and we'll try\u201d becomes a waitlist that fills your cancellations itself."
+     "label": "Own chair, own book",
+     "quote": "@ind\u00e9pendantsllc \u2014 independent suite operator",
+     "src": "Bio tag",
+     "fix": "She owns the chair. Booked Out owns the book."
     },
     {
-     "label": "Consult gatekeeping",
-     "quote": "Do I need a consultation before booking? Not always, but for big changes (major color, extensions, vivids), we recommend it.",
-     "src": "manelovesalon.com FAQ + \u201cHair extensions \u2014 Pricing Upon Consultation\u201d",
-     "fix": "Consults get screened and scheduled before they ever reach your chair."
+     "label": "One inbox everywhere",
+     "quote": "TikTok watermark \u2014 she cross-posts and fields DMs from two apps",
+     "src": "Reels in feed",
+     "fix": "Instagram, text, one inbox."
     }
    ],
-   "demo": "https://jnimbles03.github.io/booked-out-demos/manelove.isabellaa.html",
+   "demo": "https://jnimbles03.github.io/booked-out-demos/mystical_manes_by_kat.html",
    "angle": null
   },
   {
@@ -234,42 +234,10 @@
    "vertical": "lashes",
    "contact": "Salon Lofts 36 E Hinsdale Ave Loft 10 \u00b7 (630) 392-0937",
    "why": "Master lash artist \u2014 extension pricing $120-250, exactly the Ashley booking pattern",
-   "handle": "Michelle Lashes Brows Beauty",
-   "ig": "https://www.instagram.com/Michelle Lashes Brows Beauty/",
-   "pins": [
-    {
-     "label": "Foreign fill fee",
-     "quote": "?? Please note: Fill appointments with lash extensions from another salon/artist include a $20 Foreign Fill Fee due to additional time required.",
-     "src": "Vagaro booking page \u2014 next to every Book Now button",
-     "fix": "The fee, the reason, and the price \u2014 stated automatically, argued never."
-    },
-    {
-     "label": "Full menu quoted",
-     "quote": "Classic Full Set / Hybrid Full Set $205 / Wispy Full Set $210 / Russian Volume $220",
-     "src": "Vagaro service menu",
-     "fix": "The full menu quoted in the chat, every time."
-    },
-    {
-     "label": "Calls become bookings",
-     "quote": "Call: (630) 822-0201 \u2014 booking by phone for a 5,800-follower page",
-     "src": "Her own website header",
-     "fix": "Every DM and every call becomes a booked slot."
-    },
-    {
-     "label": "Trainee referral network",
-     "quote": "Lash Trainer \u00b7 Judge \u00b7 Speaker \u00b7 Beauty Business Consultant \u2014 she trains other lash artists",
-     "src": "Profile bio",
-     "fix": "Her trainees could run on Booked Out too. One demo, a whole referral network."
-    },
-    {
-     "label": "No login walls",
-     "quote": "Welcome \u2014 the Vagaro booking page demands a sign-in before it shows prices",
-     "src": "Booking flow",
-     "fix": "No login walls. The book is just open."
-    }
-   ],
-   "demo": null,
-   "angle": null
+   "handle": null,
+   "ig": "https://salonlofts.com/salons/36_e_hinsdale",
+   "pins": [],
+   "demo": null
   },
   {
    "business": "Becca Campbell Esthetics",
@@ -421,40 +389,8 @@
    "why": "Posts 'Book your appointment today!' reels \u2014 the exact Ashley CTA pattern",
    "handle": "michelle_chicago_",
    "ig": "https://www.instagram.com/michelle_chicago_/",
-   "pins": [
-    {
-     "label": "Foreign fill fee",
-     "quote": "?? Please note: Fill appointments with lash extensions from another salon/artist include a $20 Foreign Fill Fee due to additional time required.",
-     "src": "Vagaro booking page \u2014 next to every Book Now button",
-     "fix": "The fee, the reason, and the price \u2014 stated automatically, argued never."
-    },
-    {
-     "label": "Full menu quoted",
-     "quote": "Classic Full Set / Hybrid Full Set $205 / Wispy Full Set $210 / Russian Volume $220",
-     "src": "Vagaro service menu",
-     "fix": "The full menu quoted in the chat, every time."
-    },
-    {
-     "label": "Calls become bookings",
-     "quote": "Call: (630) 822-0201 \u2014 booking by phone for a 5,800-follower page",
-     "src": "Her own website header",
-     "fix": "Every DM and every call becomes a booked slot."
-    },
-    {
-     "label": "Trainee referral network",
-     "quote": "Lash Trainer \u00b7 Judge \u00b7 Speaker \u00b7 Beauty Business Consultant \u2014 she trains other lash artists",
-     "src": "Profile bio",
-     "fix": "Her trainees could run on Booked Out too. One demo, a whole referral network."
-    },
-    {
-     "label": "No login walls",
-     "quote": "Welcome \u2014 the Vagaro booking page demands a sign-in before it shows prices",
-     "src": "Booking flow",
-     "fix": "No login walls. The book is just open."
-    }
-   ],
-   "demo": "https://jnimbles03.github.io/booked-out-demos/michelle_chicago_.html",
-   "angle": null
+   "pins": [],
+   "demo": "https://jnimbles03.github.io/booked-out-demos/michelle_chicago_.html"
   },
   {
    "business": "Blue Seas Med Spa",
@@ -552,6 +488,49 @@
    "ig": null,
    "pins": [],
    "demo": null
+  },
+  {
+   "business": "Nikki Lewis Hair Therapy",
+   "city": "Scottsdale",
+   "vertical": "hair",
+   "contact": null,
+   "why": null,
+   "handle": "nikki_hairtherapy",
+   "ig": "https://www.instagram.com/nikki_hairtherapy/",
+   "pins": [
+    {
+     "label": "DM to get on my books",
+     "quote": "This is your sign to treat yourself \u2014 DM me now to get on my books \ud83d\udc8c",
+     "src": "Clip-In Extension Installs post",
+     "fix": "The booking happens right inside that DM. No back-and-forth, no waiting on you."
+    },
+    {
+     "label": "Same CTA, every post",
+     "quote": "Ready for your own hair transformation? Send me a message and book your next appointment!",
+     "src": "Blonding + beaded wefts post, this week \u2014 this CTA closes nearly every post she writes",
+     "fix": "You post it once. Whoever DMs gets whatever is genuinely open, live, at any hour."
+    },
+    {
+     "label": "Shade matching by DM",
+     "quote": "Message me a photo, and I'll help you find your shade.",
+     "src": "The Extension x Nikki product posts \u2014 every retail sale starts with a DM she answers by hand",
+     "fix": "Shade questions answered in seconds, day or night \u2014 your retail line stops waiting on your chair time."
+    },
+    {
+     "label": "Education in the DMs",
+     "quote": "Think your hair just \"doesn't have volume?\" In many cases, it isn't your hair; it's your cut, styling routine, or products.",
+     "src": "#HairEducation reel \u2014 she teaches in captions, then answers the follow-ups one at a time",
+     "fix": "The same education, answered instantly in every DM. You teach once."
+    },
+    {
+     "label": "Consult-first booking",
+     "quote": "That's the difference a personalized consultation can make. Send me a message to book your appointment.",
+     "src": "Consultation post, thanking Danielle",
+     "fix": "Consults book themselves. New clients still get your yes before they sit in your chair."
+    }
+   ],
+   "angle": null,
+   "demo": "https://jnimbles03.github.io/booked-out-demos/nikki_hairtherapy.html"
   }
  ]
 }
