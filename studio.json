@@ -5,29 +5,96 @@
    "business": "Curls by Molly",
    "city": "Glen Ellyn",
    "vertical": "hair",
-   "handle": "www.instagram.com",
-   "ig": "https://www.instagram.com/curlsbymollyy",
-   "notes": null,
-   "pins": [],
-   "demo": null
+   "contact": "My Salon Suite 930 Roosevelt Rd #305 \u00b7 curlsbymolly@gmail.com \u00b7 630-446-0293 \u00b7 IG @curlsbymollyy",
+   "why": "Solo curl specialist, books via GlossGenius, posts 'books open Oct 1' \u2014 classic opening-day scramble",
+   "handle": "curlsbymollyy",
+   "ig": "https://www.instagram.com/curlsbymollyy/",
+   "pins": [
+    {
+     "label": "New-client intake form",
+     "quote": "NEW CLIENT INTAKE FORM \u2014 click for new client intake form",
+     "src": "Pinned story highlight, all year",
+     "fix": "New clients never fill out a form. They just book."
+    },
+    {
+     "label": "Late-fee enforcement",
+     "quote": "IF YOU ARE MORE THAN 15 MINUTES LATE TO YOUR APPOINTMENT, YOUR SERVICE WILL NEED TO BE RESCHEDULED AND A $50 FEE WILL BE ADDED",
+     "src": "Story highlight: Curl Preparation Policy",
+     "fix": "Deposits and the policy enforce themselves."
+    },
+    {
+     "label": "Cancel-fee enforcement",
+     "quote": "IF YOU NEED TO CANCEL YOUR ALREADY SCHEDULED, STYLED CURLY, SIDE PART RIGHT IN THE MIDDLE OF YOUR APPOINTMENT WINDOW, A $50 FEE WILL BE ADDED",
+     "src": "Story highlight: Curl Preparation Policy",
+     "fix": "Same-day cancels refill from the waitlist in minutes."
+    },
+    {
+     "label": "Broken intake link",
+     "quote": "Form over quota. This form has exceeded its allocated quota. \u2014 Jotform",
+     "src": "Her new-client intake link, live during our visit",
+     "fix": "Her intake form was literally broken when we looked. New clients bounced."
+    },
+    {
+     "label": "Self-running waitlist",
+     "quote": "Join Waitlist \u2014 the fallback when no dates work",
+     "src": "GlossGenius booking page",
+     "fix": "The waitlist runs itself and texts people when you can't."
+    }
+   ],
+   "demo": "https://jnimbles03.github.io/booked-out-demos/curlsbymollyy.html",
+   "angle": null
   },
   {
    "business": "The Wax Effect",
    "city": "Glen Ellyn",
    "vertical": "facial",
-   "handle": "www.instagram.com",
-   "ig": "https://www.instagram.com/thewaxeffect",
-   "notes": null,
-   "pins": [],
-   "demo": null
+   "contact": "My Salon Suite 930 Roosevelt Rd #204 \u00b7 thewaxeffect@yahoo.com \u00b7 630-220-2237",
+   "why": "Solo esthetician in the same building \u2014 one walk-in loop covers both",
+   "handle": "nikki_hairtherapy",
+   "ig": "https://www.instagram.com/nikki_hairtherapy/",
+   "pins": [
+    {
+     "label": "DM to get on my books",
+     "quote": "This is your sign to treat yourself \u2014 DM me now to get on my books \ud83d\udc8c",
+     "src": "Clip-In Extension Installs post",
+     "fix": "The booking happens right inside that DM. No back-and-forth, no waiting on you."
+    },
+    {
+     "label": "Same CTA, every post",
+     "quote": "Ready for your own hair transformation? Send me a message and book your next appointment!",
+     "src": "Blonding + beaded wefts post, this week \u2014 this CTA closes nearly every post she writes",
+     "fix": "You post it once. Whoever DMs gets whatever is genuinely open, live, at any hour."
+    },
+    {
+     "label": "Shade matching by DM",
+     "quote": "Message me a photo, and I'll help you find your shade.",
+     "src": "The Extension x Nikki product posts \u2014 every retail sale starts with a DM she answers by hand",
+     "fix": "Shade questions answered in seconds, day or night \u2014 your retail line stops waiting on your chair time."
+    },
+    {
+     "label": "Education in the DMs",
+     "quote": "Think your hair just \"doesn't have volume?\" In many cases, it isn't your hair; it's your cut, styling routine, or products.",
+     "src": "#HairEducation reel \u2014 she teaches in captions, then answers the follow-ups one at a time",
+     "fix": "The same education, answered instantly in every DM. You teach once."
+    },
+    {
+     "label": "Consult-first booking",
+     "quote": "That's the difference a personalized consultation can make. Send me a message to book your appointment.",
+     "src": "Consultation post, thanking Danielle",
+     "fix": "Consults book themselves. New clients still get your yes before they sit in your chair."
+    }
+   ],
+   "demo": "https://jnimbles03.github.io/booked-out-demos/nikki_hairtherapy.html",
+   "angle": null
   },
   {
    "business": "Megan Elizabeth Hair + Bridal Studio",
    "city": "Glen Ellyn",
    "vertical": "hair",
+   "contact": "My Salon Suite 930 Roosevelt Rd #201 \u00b7 megan@meganelizabethstudio.com \u00b7 630-464-3130",
+   "why": "Bridal + studio, linktr.ee booking \u2014 likely juggling DMs and a booking link",
    "handle": null,
    "ig": null,
-   "notes": null,
    "pins": [],
    "demo": null
   },
@@ -35,9 +102,10 @@
    "business": "Massage by Gretchen & Associates",
    "city": "Wheaton",
    "vertical": "massage",
+   "contact": "massagebygretch.com \u00b7 listed on Yelp Glen Ellyn search",
+   "why": "Growing from solo practice into associates \u2014 the hand-booking pain is at its peak right now",
    "handle": null,
    "ig": null,
-   "notes": null,
    "pins": [],
    "demo": null
   },
@@ -45,19 +113,53 @@
    "business": "Salon 417",
    "city": "Glen Ellyn",
    "vertical": "hair",
-   "handle": null,
-   "ig": null,
-   "notes": null,
-   "pins": [],
-   "demo": null
+   "contact": "417 Main St, Glen Ellyn \u00b7 630-469-4040 \u00b7 salon417ge.com",
+   "why": "Independent-stylist building on Main St \u2014 each chair is a separate Booked Out prospect",
+   "handle": "manelove.isabellaa",
+   "ig": "https://www.instagram.com/manelove.isabellaa/",
+   "pins": [
+    {
+     "label": "Link-in-bio dead end",
+     "quote": "Click the link in my bio to book!!",
+     "src": "IG post, Aug 31 2026 \u2014 @manelove.isabella",
+     "fix": "One link that actually books \u2014 no bio hop, no dead end."
+    },
+    {
+     "label": "DM-to-book chaos",
+     "quote": "Message me or click the link in my bio to book",
+     "src": "IG post, June 2 2026 \u2014 lived-in blonde",
+     "fix": "Every DM that says \u201chow do I book?\u201d gets answered and booked for you."
+    },
+    {
+     "label": "Phone tag while working",
+     "quote": "Call/Text (417) 691-5880 to book your appointment",
+     "src": "IG post \u2014 \u201cDark, Glossy and unforgettable\u201d",
+     "fix": "Texts get booked without you picking up the phone mid-foil."
+    },
+    {
+     "label": "3-4 week wait",
+     "quote": "We recommend booking at least 3-4 weeks ahead, especially for color and extension services. If you need something sooner, reach out and we'll do our best to make it work.",
+     "src": "manelovesalon.com FAQ \u2014 \u201cHow far in advance should I book?\u201d",
+     "fix": "\u201cReach out and we'll try\u201d becomes a waitlist that fills your cancellations itself."
+    },
+    {
+     "label": "Consult gatekeeping",
+     "quote": "Do I need a consultation before booking? Not always, but for big changes (major color, extensions, vivids), we recommend it.",
+     "src": "manelovesalon.com FAQ + \u201cHair extensions \u2014 Pricing Upon Consultation\u201d",
+     "fix": "Consults get screened and scheduled before they ever reach your chair."
+    }
+   ],
+   "demo": "https://jnimbles03.github.io/booked-out-demos/manelove.isabellaa.html",
+   "angle": null
   },
   {
    "business": "Salon 417 / kayotickutz",
    "city": "Glen Ellyn",
    "vertical": "hair",
-   "handle": "www.instagram.com",
+   "contact": "IG @kayotickutz \u00b7 773-934-8988 \u00b7 in Salon 417",
+   "why": "Bridal/vivid/curly specialist, IG-first booking \u2014 exactly the Ashley pattern",
+   "handle": null,
    "ig": "https://www.instagram.com/mystical_manes_by_kat",
-   "notes": null,
    "pins": [],
    "demo": null
   },
@@ -65,9 +167,10 @@
    "business": "Serene Hands Therapeutic Massage",
    "city": "Glen Ellyn",
    "vertical": "massage",
+   "contact": "Listed on MassageBook, 90-min from $99",
+   "why": "Solo LMT already selling on MassageBook \u2014 paying a marketplace fee Booked Out could replace",
    "handle": null,
    "ig": null,
-   "notes": null,
    "pins": [],
    "demo": null
   },
@@ -75,19 +178,53 @@
    "business": "T&R Head Spa",
    "city": "Glen Ellyn",
    "vertical": "facial",
-   "handle": "www.instagram.com",
-   "ig": "https://www.instagram.com/tr_headspa",
-   "notes": null,
-   "pins": [],
-   "demo": null
+   "contact": "428 Roosevelt Rd, Glen Ellyn \u00b7 331-600-7273 \u00b7 active IG (posts specials/reels)",
+   "why": "Head spa is exploding on IG; posts Mother's-Day-style specials they manage by hand",
+   "handle": "tr_headspa",
+   "ig": "https://www.instagram.com/tr_headspa/",
+   "pins": [
+    {
+     "label": "Self-filling waitlist",
+     "quote": "Not seeing a time that works for you? Join our waitlist",
+     "src": "MangoMint booking page",
+     "fix": "The waitlist works itself. Nobody waits on a page that says nothing."
+    },
+    {
+     "label": "Policy enforces itself",
+     "quote": "We kindly ask for at least 24 hours notice\u2026 50% \u202680% of the scheduled service",
+     "src": "Booking cancellation policy",
+     "fix": "The policy enforces itself \u2014 no honoring it by hand."
+    },
+    {
+     "label": "Same-day openings broadcast",
+     "quote": "There may be appointments available within the next 30 minutes, please call us at 331-600-7273",
+     "src": "Booking page, when slots run out",
+     "fix": "Same-day openings go out to the whole waitlist instantly."
+    },
+    {
+     "label": "Group bookings, one chat",
+     "quote": "Groups of 9+ get 20% off. Book today before spots fill up!",
+     "src": "Instagram post",
+     "fix": "Group bookings handled in one conversation, not nine."
+    },
+    {
+     "label": "Memberships run themselves",
+     "quote": "Glow Mentorship \u2014 $58/month: 1 Select service that fits you best each month",
+     "src": "Instagram post",
+     "fix": "Memberships, packages, reminders \u2014 all of it runs itself."
+    }
+   ],
+   "demo": "https://jnimbles03.github.io/booked-out-demos/tr_headspa.html",
+   "angle": null
   },
   {
    "business": "Hunt & Gather Barber Co.",
    "city": "Glen Ellyn",
    "vertical": "barber",
+   "contact": "My Salon Suite 930 Roosevelt Rd #310 \u00b7 331-425-5064 \u00b7 books via Vagaro",
+   "why": "Barber paying Vagaro fees; barbers feel every no-show directly",
    "handle": null,
    "ig": null,
-   "notes": null,
    "pins": [],
    "demo": null
   },
@@ -95,19 +232,53 @@
    "business": "Beauty Box | Lash Studio",
    "city": "Hinsdale",
    "vertical": "lashes",
-   "handle": "salons",
-   "ig": "https://salonlofts.com/salons/36_e_hinsdale",
-   "notes": null,
-   "pins": [],
-   "demo": null
+   "contact": "Salon Lofts 36 E Hinsdale Ave Loft 10 \u00b7 (630) 392-0937",
+   "why": "Master lash artist \u2014 extension pricing $120-250, exactly the Ashley booking pattern",
+   "handle": "Michelle Lashes Brows Beauty",
+   "ig": "https://www.instagram.com/Michelle Lashes Brows Beauty/",
+   "pins": [
+    {
+     "label": "Foreign fill fee",
+     "quote": "?? Please note: Fill appointments with lash extensions from another salon/artist include a $20 Foreign Fill Fee due to additional time required.",
+     "src": "Vagaro booking page \u2014 next to every Book Now button",
+     "fix": "The fee, the reason, and the price \u2014 stated automatically, argued never."
+    },
+    {
+     "label": "Full menu quoted",
+     "quote": "Classic Full Set / Hybrid Full Set $205 / Wispy Full Set $210 / Russian Volume $220",
+     "src": "Vagaro service menu",
+     "fix": "The full menu quoted in the chat, every time."
+    },
+    {
+     "label": "Calls become bookings",
+     "quote": "Call: (630) 822-0201 \u2014 booking by phone for a 5,800-follower page",
+     "src": "Her own website header",
+     "fix": "Every DM and every call becomes a booked slot."
+    },
+    {
+     "label": "Trainee referral network",
+     "quote": "Lash Trainer \u00b7 Judge \u00b7 Speaker \u00b7 Beauty Business Consultant \u2014 she trains other lash artists",
+     "src": "Profile bio",
+     "fix": "Her trainees could run on Booked Out too. One demo, a whole referral network."
+    },
+    {
+     "label": "No login walls",
+     "quote": "Welcome \u2014 the Vagaro booking page demands a sign-in before it shows prices",
+     "src": "Booking flow",
+     "fix": "No login walls. The book is just open."
+    }
+   ],
+   "demo": null,
+   "angle": null
   },
   {
    "business": "Becca Campbell Esthetics",
    "city": "Hinsdale",
    "vertical": "facial",
+   "contact": "Salon Lofts 36 E Hinsdale Ave Loft 10 \u00b7 (708) 640-5151",
+   "why": "Corrective facials + wax, shares a loft with Melissa \u2014 same-stop double",
    "handle": null,
    "ig": null,
-   "notes": null,
    "pins": [],
    "demo": null
   },
@@ -115,9 +286,10 @@
    "business": "Indifference Salon LLC",
    "city": "Hinsdale",
    "vertical": "hair",
+   "contact": "Salon Lofts 36 E Hinsdale Ave \u00b7 (630) 920-8090",
+   "why": "Master stylist, own LLC \u2014 solo operator",
    "handle": null,
    "ig": null,
-   "notes": null,
    "pins": [],
    "demo": null
   },
@@ -125,9 +297,10 @@
    "business": "Agnes M Hair",
    "city": "Hinsdale",
    "vertical": "hair",
+   "contact": "Salon Lofts 36 E Hinsdale Ave Loft 13 \u00b7 (630) 823-1699",
+   "why": "Full loft, men's+women's cuts/color",
    "handle": null,
    "ig": null,
-   "notes": null,
    "pins": [],
    "demo": null
   },
@@ -135,9 +308,10 @@
    "business": "BIG H FADEZ",
    "city": "Hinsdale",
    "vertical": "barber",
+   "contact": "Salon Lofts 36 E Hinsdale Ave Loft 6",
+   "why": "Barber \u2014 $65 men's cuts, feels every no-show",
    "handle": null,
    "ig": null,
-   "notes": null,
    "pins": [],
    "demo": null
   },
@@ -145,19 +319,53 @@
    "business": "Hair by Sami",
    "city": "Naperville",
    "vertical": "hair",
-   "handle": "www.instagram.com",
-   "ig": "https://www.instagram.com/hairbysamijo",
-   "notes": null,
-   "pins": [],
-   "demo": null
+   "contact": "Salon Lofts 22 E Chicago Ave Loft 8 \u00b7 instagram.com/hairbysamijo",
+   "why": "IG bio literally says 'Independent Stylist' \u2014 DM-booking pain on display",
+   "handle": "hairbysamijo",
+   "ig": "https://www.instagram.com/hairbysamijo/",
+   "pins": [
+    {
+     "label": "DM-to-book chaos",
+     "quote": "To book DM or text me \ud83d\udc47",
+     "src": "Caption, 106 likes \u2014 her booking instructions",
+     "fix": "They book the moment they ask. No DM tennis."
+    },
+    {
+     "label": "Fresh independent book",
+     "quote": "hairbysamijo New keys, New space. Same passion. Today I officially start my journey as an independent stylist in Salon Lofts Naperville. So excited for this new chapter!",
+     "src": "Caption, February 13",
+     "fix": "New space, new book \u2014 build it right from day one."
+    },
+    {
+     "label": "Book fills itself",
+     "quote": "So happy to be working alongside @mistyheather so excited for this next chapter! Can't wait to see everyone and thank you for being apart of this journey!",
+     "src": "Same caption",
+     "fix": "Her book fills itself while she does the hair."
+    },
+    {
+     "label": "Unanswered DMs cost clients",
+     "quote": "BEFORE \u2014 every transformation starts with a message that never got answered",
+     "src": "Education highlight stories",
+     "fix": "Every DM answered in seconds, even mid-color."
+    },
+    {
+     "label": "Automatic reviews",
+     "quote": "Client Revie\u2026 \u2014 she pins client reviews to her highlights",
+     "src": "Profile highlights",
+     "fix": "Reviews come in automatically after every visit."
+    }
+   ],
+   "demo": "https://jnimbles03.github.io/booked-out-demos/hairbysamijo.html",
+   "angle": null
   },
   {
    "business": "MELD Studio",
    "city": "Naperville",
    "vertical": "hair",
-   "handle": "www.instagram.com",
+   "contact": "instagram.com/kathyastylist \u00b7 info.meldstudio@gmail.com",
+   "why": "IG bio: 'Bio to book or dm for booking questions' \u2014 verbatim Booked Out pitch",
+   "handle": null,
    "ig": "https://www.instagram.com/kathyastylist",
-   "notes": null,
    "pins": [],
    "demo": null
   },
@@ -165,9 +373,10 @@
    "business": "Deva Curl Stylist",
    "city": "Naperville",
    "vertical": "hair",
+   "contact": "Salon Lofts 22 E Chicago Ave",
+   "why": "1 of 10 international DevaCurl educators \u2014 premium client, premium book",
    "handle": null,
    "ig": null,
-   "notes": null,
    "pins": [],
    "demo": null
   },
@@ -175,9 +384,10 @@
    "business": "Haily Aldrich Master Esthetician",
    "city": "Naperville",
    "vertical": "facial",
+   "contact": "Salon Lofts 22 E Chicago Ave Loft 13",
+   "why": "Laser + lash lift + facials \u2014 multi-service book",
    "handle": null,
    "ig": null,
-   "notes": null,
    "pins": [],
    "demo": null
   },
@@ -185,9 +395,10 @@
    "business": "Soft Styles",
    "city": "Naperville",
    "vertical": "hair",
+   "contact": "Salon Lofts 22 E Chicago Ave Loft 20 \u00b7 (630) 828-3395",
+   "why": "Silk press specialist, $125+ services",
    "handle": null,
    "ig": null,
-   "notes": null,
    "pins": [],
    "demo": null
   },
@@ -195,9 +406,10 @@
    "business": "Waxing With Love",
    "city": "Naperville",
    "vertical": "facial",
+   "contact": "Salon Lofts 22 E Chicago Ave",
+   "why": "Wax specialist \u2014 repeat-cadence business, reminders are the killer app",
    "handle": null,
    "ig": null,
-   "notes": null,
    "pins": [],
    "demo": null
   },
@@ -205,9 +417,10 @@
    "business": "Michelle Lashes Brows Beauty",
    "city": "Downers Grove",
    "vertical": "lashes",
-   "handle": "www.instagram.com",
+   "contact": "1202P 75th St \u00b7 instagram.com/michelle_chicago_",
+   "why": "Posts 'Book your appointment today!' reels \u2014 the exact Ashley CTA pattern",
+   "handle": null,
    "ig": "https://www.instagram.com/michelle_chicago_",
-   "notes": null,
    "pins": [],
    "demo": null
   },
@@ -215,29 +428,96 @@
    "business": "Blue Seas Med Spa",
    "city": "Naperville + Glen Ellyn",
    "vertical": "medspa",
-   "handle": "www.instagram.com",
-   "ig": "https://www.instagram.com/blueseasmedspa",
-   "notes": null,
-   "pins": [],
-   "demo": null
+   "contact": "instagram.com/blueseasmedspa \u00b7 linktr.ee/blueseasmedspa",
+   "why": "4.6K followers, two locations, posts before/afters \u2014 bigger fish, but the IG-receptionist ROI story lands hard",
+   "handle": "blueseasmedspa",
+   "ig": "https://www.instagram.com/blueseasmedspa/",
+   "pins": [
+    {
+     "label": "Membership runs itself",
+     "quote": "The Blue Club: $420/month that becomes treatment credit \u00b7 Members receive 15% off all treatments \u00b7 Credits roll over for up to 6 months",
+     "src": "Caption introducing The Blue Club",
+     "fix": "Membership billing, rollover, and booking \u2014 all automatic."
+    },
+    {
+     "label": "Membership sold automatically",
+     "quote": "Join The Blue Club today through the link in our bio, or ask our team about membership at your next appointment!",
+     "src": "Same caption \u2014 membership sold through DMs",
+     "fix": "Membership questions answered and sold automatically."
+    },
+    {
+     "label": "Referrals tracked automatically",
+     "quote": "Refer a friend and you'll both enjoy a $50 credit \u2014 SHARE THE LOVE",
+     "src": "Referral program graphic",
+     "fix": "Referrals tracked and credited without a spreadsheet."
+    },
+    {
+     "label": "Prices answered in DM",
+     "quote": "Injectables & Skincare \u00b7 Injectables & Skincare \u00b7 Before & After \u00b7 more",
+     "src": "Profile bio \u2014 repeated because it's what everyone DMs about",
+     "fix": "Prices and consults answered instantly, in the DM."
+    },
+    {
+     "label": "Promos expire themselves",
+     "quote": "SUMMER SPECIALS \u2014 a new promo graphic every season",
+     "src": "Feed graphics",
+     "fix": "Promos run on schedule and expire on their own."
+    }
+   ],
+   "demo": "https://jnimbles03.github.io/booked-out-demos/blueseasmedspa.html",
+   "angle": null
   },
   {
    "business": "Lulu Head Spa",
    "city": "Naperville",
    "vertical": "facial",
-   "handle": "www.instagram.com",
-   "ig": "https://www.instagram.com/luluheadspa",
-   "notes": null,
-   "pins": [],
-   "demo": null
+   "contact": "instagram.com/luluheadspa",
+   "why": "Runs $99 summer promos via 'link in bio' \u2014 promo scheduling is the pitch",
+   "handle": "luluheadspa",
+   "ig": "https://www.instagram.com/luluheadspa/",
+   "pins": [
+    {
+     "label": "Support means booked",
+     "quote": "If you, too, want to become a cutie patootie, then support your local small businesses!",
+     "src": "Caption",
+     "fix": "Support starts with actually getting booked."
+    },
+    {
+     "label": "Promos live on the book",
+     "quote": "60 min Head Spa for $99 all summer long! \u2026Click the link in our bio to book",
+     "src": "Promo caption",
+     "fix": "Promos live on the book and expire themselves."
+    },
+    {
+     "label": "Sunday specials self-fill",
+     "quote": "This Sunday receive a 30 min head spa service for $50 or a 60 min service for $99!",
+     "src": "Promo caption \u2014 one-day specials",
+     "fix": "Sunday specials post, fill, and close out on their own."
+    },
+    {
+     "label": "Deposit enforces policy",
+     "quote": "In the event of appointments, or cancellations within 24 hours of appointment, you will be charged 100% of service cost.",
+     "src": "Booking policy",
+     "fix": "24-hour policy enforced by deposit, not by memory."
+    },
+    {
+     "label": "High-ticket confirmed bookings",
+     "quote": "DERIVE Hair Restoration $458 \u2014 3 min Scalp Treatment $508",
+     "src": "Website service menu",
+     "fix": "High-ticket services deserve confirmed bookings, not DMs."
+    }
+   ],
+   "demo": "https://jnimbles03.github.io/booked-out-demos/luluheadspa.html",
+   "angle": null
   },
   {
    "business": "(building \u2014 15+ suite pros)",
    "city": "Burr Ridge",
    "vertical": "multi",
+   "contact": "mysalonsuite.com/burr-ridge \u2014 directory like Glen Ellyn's",
+   "why": "Another one-stop building; pull the member directory before visiting",
    "handle": null,
    "ig": null,
-   "notes": null,
    "pins": [],
    "demo": null
   }
