@@ -1,0 +1,818 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Isabella's public posts, each one answered in a tap-through of how the booking would run instead.">
+<style>
+  :root{color-scheme:light dark}
+  html,body{margin:0}
+  img{max-width:100%}
+  [hidden]{display:none!important}
+</style>
+<title>Isabella's Booking Line</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&display=swap">
+
+</head>
+<body>
+<style>
+:root{
+  --ground:#FBF8F3; --surface:#F2EDE4; --card:#FFFFFF;
+  --ink:#26241F; --ink-2:#5F5B52; --ink-3:#918C81;
+  --rule:rgba(27,67,50,.14); --rule-2:rgba(27,67,50,.24);
+  --brand:#1B4332; --sage:#5E9464;
+  --them:#EFEFEF; --them-ink:#111111;
+  --us:#8A3FE8; --us-ink:#FFFFFF;
+  --ig-bg:#FFFFFF; --ig-ink:#111111; --ig-dim:#8E8E8E; --ig-line:rgba(0,0,0,.09);
+  --phone-bg:#FFFFFF; --phone-edge:#DFD8CC; --chrome:#F6F2EA;
+  --story-bg:#211F1B; --story-ink:#F7F4EE; --story-dim:#A9A296;
+  --open:#B4AEA2; --blocked:#9A6B14; --blocked-bg:rgba(154,107,20,.11);
+  --app-bg:#EDE8DE; --app-card:#FDFCFA; --app-ink:#2B3348; --app-ink2:#6E6A63; --app-eyebrow:#8A8078;
+  --app-line:rgba(43,51,72,.10); --app-navy:#2B3348; --app-onnavy:#FDFCFA;
+  --pink:#F7E4E2; --tan:#EFDDD0; --blue:#DCE6F2; --pink-ink:#9A4A3C; --tan-ink:#2B3348; --blue-ink:#2F5478;
+  --paid:#3F5FA8; --tips:#C4714A; --track:rgba(43,51,72,.09);
+  --dot:rgba(43,51,72,.07);
+  --shadow:0 2px 4px rgba(38,36,31,.05), 0 24px 60px -30px rgba(38,36,31,.45);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --ground:#12150F; --surface:#1A1F19; --card:#1E241D;
+    --ink:#EDEFE7; --ink-2:#A6AC9E; --ink-3:#767C70;
+    --rule:rgba(200,222,200,.16); --rule-2:rgba(200,222,200,.26);
+    --brand:#A9D6B5; --sage:#8FC493;
+    --them:#262626; --them-ink:#F5F5F5;
+    --us:#8A3FE8; --us-ink:#FFFFFF;
+    --ig-bg:#000000; --ig-ink:#F5F5F5; --ig-dim:#A8A8A8; --ig-line:rgba(255,255,255,.12);
+    --phone-bg:#1B211A; --phone-edge:#333B32; --chrome:#222A21;
+    --open:#6B7268; --blocked:#D2A75E; --blocked-bg:rgba(210,167,94,.14);
+    /* product screens never invert — the real app is a light product (see :root) */
+    --shadow:0 2px 4px rgba(0,0,0,.5), 0 26px 64px -34px rgba(0,0,0,.9);
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#12150F; --surface:#1A1F19; --card:#1E241D;
+  --ink:#EDEFE7; --ink-2:#A6AC9E; --ink-3:#767C70;
+  --rule:rgba(200,222,200,.16); --rule-2:rgba(200,222,200,.26);
+  --brand:#A9D6B5; --sage:#8FC493;
+  --them:#262626; --them-ink:#F5F5F5;
+  --us:#8A3FE8; --us-ink:#FFFFFF;
+  --ig-bg:#000000; --ig-ink:#F5F5F5; --ig-dim:#A8A8A8; --ig-line:rgba(255,255,255,.12);
+  --phone-bg:#1B211A; --phone-edge:#333B32; --chrome:#222A21;
+  --open:#6B7268; --blocked:#D2A75E; --blocked-bg:rgba(210,167,94,.14);
+  /* product screens never invert — the real app is a light product (see :root) */
+  --shadow:0 2px 4px rgba(0,0,0,.5), 0 26px 64px -34px rgba(0,0,0,.9);
+}
+
+*{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);
+  font-family:"DM Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased}
+.wrap{max-width:560px;margin:0 auto;padding:38px 20px 64px;display:flex;flex-direction:column;gap:26px}
+
+.eyebrow{font-size:11.5px;letter-spacing:.15em;text-transform:uppercase;color:var(--sage);font-weight:500}
+h1{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:clamp(28px,7.5vw,38px);
+  line-height:1.1;letter-spacing:-.02em;margin:12px 0 0;text-wrap:balance}
+h1 em{font-style:italic;font-weight:400}
+.deck{font-size:17px;line-height:1.55;color:var(--ink-2);margin:14px 0 0}
+
+.words{display:flex;flex-direction:column;gap:10px}
+.qc{background:var(--card);border:1px solid var(--rule);border-radius:16px;padding:15px 16px;
+  display:flex;gap:13px;align-items:flex-start}
+.pin{width:24px;height:24px;border-radius:50%;background:var(--brand);color:var(--ground);flex:none;
+  display:flex;align-items:center;justify-content:center;font-size:12.5px;font-weight:700;margin-top:2px}
+.qc .qb{flex:1;min-width:0}
+.qc q{display:block;font-family:Fraunces,Georgia,serif;font-style:italic;font-size:16px;
+  line-height:1.4;color:var(--ink);quotes:none}
+.qc .src{display:block;font-size:12px;color:var(--ink-3);margin-top:7px}
+.qc .fix{display:block;font-size:13.5px;color:var(--sage);font-weight:700;margin-top:8px}
+.wnote{font-size:14.5px;color:var(--ink-2);line-height:1.55;margin:0}
+.callback{display:flex;gap:9px;align-items:center;margin-top:9px;padding-top:9px;
+  border-top:1px solid var(--rule)}
+.callback .pin{width:20px;height:20px;font-size:11px;margin:0}
+.callback span{font-size:13.5px;font-weight:700;color:var(--sage);line-height:1.35}
+.map{display:flex;flex-direction:column;gap:10px}
+.mrow{background:var(--card);border:1px solid var(--rule);border-radius:14px;padding:13px 15px;
+  display:flex;gap:12px;align-items:flex-start}
+.mrow .mb{flex:1;min-width:0}
+.mrow b{display:block;font-size:15px;font-weight:700;line-height:1.35}
+.mrow span{display:block;font-size:13.5px;color:var(--ink-2);line-height:1.45;margin-top:3px}
+.who{display:flex;align-items:center;gap:10px;min-height:22px}
+.who .dot{width:8px;height:8px;border-radius:50%;background:var(--sage);flex:none}
+.who span{font-size:12px;letter-spacing:.13em;text-transform:uppercase;font-weight:500;color:var(--ink-2)}
+
+.phone{background:var(--phone-bg);border:1px solid var(--phone-edge);border-radius:26px;
+  box-shadow:var(--shadow);overflow:hidden;display:flex;flex-direction:column;height:580px}
+.prog{display:flex;gap:2px;padding:8px 10px 0;background:var(--chrome)}
+.phone.story-on .prog{background:var(--story-bg)}
+.phone.app-on .prog{background:var(--app-card)}
+.phone.app-on .bar{background:var(--app-card);color:var(--app-ink2)}
+.phone.app-on{background:var(--app-bg)}
+.prog i{height:2.5px;flex:1;background:var(--rule-2);border-radius:2px}
+.phone.story-on .prog i{background:rgba(247,244,238,.25)}
+.prog i.on{background:var(--sage)}
+.bar{display:flex;justify-content:space-between;align-items:center;padding:5px 16px 3px;
+  background:var(--chrome);font-size:11.5px;font-weight:700;color:var(--ink-3);letter-spacing:.02em}
+.phone.story-on .bar{background:var(--story-bg);color:var(--story-dim)}
+.hdr{display:flex;align-items:center;gap:10px;padding:9px 14px;background:var(--chrome);
+  border-bottom:1px solid var(--rule)}
+.phone.story-on .hdr{display:none}
+.hdr .av{width:29px;height:29px;border-radius:50%;background:var(--sage);flex:none;
+  display:flex;align-items:center;justify-content:center;color:var(--ground);font-size:12px;font-weight:700}
+.hdr b{font-size:14.5px;font-weight:700;line-height:1.2}
+.hdr small{display:block;font-size:11.5px;color:var(--ink-3);font-weight:400}
+
+.screen{flex:1;overflow-y:auto;padding:14px;display:flex;flex-direction:column;gap:9px}
+.screen.story{background:var(--story-bg);justify-content:center;gap:16px;padding:26px 22px}
+.screen.app{gap:14px;padding:15px 14px}
+.story .hdl{font-family:Fraunces,Georgia,serif;font-size:29px;color:var(--story-ink);line-height:1.08;font-weight:600}
+.story .sub{font-size:14.5px;color:var(--story-dim);line-height:1.45}
+.story .cta,.day-act{background:var(--story-ink);color:#211F1B;font-size:15px;font-weight:700;
+  padding:13px 20px;border-radius:999px;text-align:center;border:0;cursor:pointer;font-family:inherit;width:100%}
+.story .cta:hover{opacity:.9}
+.story .foot{font-size:11.5px;color:var(--story-dim);text-align:center;margin-top:2px}
+
+.screen.dm{background:var(--ig-bg)}
+.hdr.igbar{background:var(--ig-bg);border-bottom:1px solid var(--ig-line)}
+.hdr.igbar .back{font-size:19px;color:var(--ig-ink);flex:none;font-style:normal;margin-right:-2px}
+.hdr.igbar .av{background:#2E5C46;color:#fff;font-family:Fraunces,Georgia,serif;font-size:13px}
+.hdr.igbar b{color:var(--ig-ink)} .hdr.igbar small{color:var(--ig-dim)}
+.msg{max-width:82%;padding:9px 13px;font-size:15px;line-height:1.45;border-radius:17px;
+  white-space:pre-line;animation:rise .26s ease-out}
+.screen.dm .msg.them{border-radius:18px;border-bottom-left-radius:5px}
+.screen.dm .msg.us{border-radius:18px;border-bottom-right-radius:5px}
+.msg .lnk{color:#2E7BC4;text-decoration:none;word-break:break-all}
+.screen.dm .msg.us .lnk{color:#DCC8FF}
+@keyframes rise{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:none}}
+.msg.them{background:var(--them);color:var(--them-ink);align-self:flex-start;border-bottom-left-radius:5px}
+.msg.us{background:var(--us);color:var(--us-ink);align-self:flex-end;border-bottom-right-radius:5px}
+.msg .re{display:block;font-size:11px;opacity:.7;padding-left:8px;border-left:2px solid currentColor;
+  margin-bottom:5px;line-height:1.35}
+.beat{font-size:12.5px;color:var(--ink-3);align-self:center;text-align:center;padding:5px 10px;line-height:1.4}
+
+/* ===== product chrome (app view) ===== */
+.screen.app{background:var(--app-bg);color:var(--app-ink);gap:13px;padding:15px 13px;
+  background-image:radial-gradient(circle,var(--dot) 1px,transparent 1px);background-size:15px 15px}
+.hdr.appbar{justify-content:center;background:var(--app-card);border-bottom:1px solid var(--app-line)}
+.phone.app-on .prog i{background:var(--track)}
+.phone.app-on .prog i.on{background:var(--app-navy)}
+.hdr.appbar b{font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--app-ink);font-weight:700}
+.hdr.appbar .av,.hdr.appbar small{display:none}
+
+.eyeb{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--app-eyebrow);font-weight:700}
+.ptitle{font-family:Fraunces,Georgia,serif;font-size:26px;font-weight:600;line-height:1.05;
+  color:var(--app-ink);letter-spacing:-.015em}
+.psub{font-size:13px;color:var(--app-ink2);line-height:1.4;margin-top:-6px}
+.acard{background:var(--app-card);border-radius:16px;padding:14px;animation:rise .26s ease-out}
+
+.tabs{display:flex;background:var(--app-card);border-radius:999px;padding:4px;gap:2px}
+.tabs span{flex:1;text-align:center;font-size:13px;font-weight:500;padding:7px 4px;border-radius:999px;color:var(--app-ink2)}
+.tabs span.on{background:var(--ground);color:var(--app-ink);font-weight:700;box-shadow:0 1px 3px rgba(0,0,0,.07)}
+
+.status{background:rgba(253,252,250,.55);border:1px solid var(--app-line);border-radius:16px;
+  padding:14px;display:flex;gap:11px;align-items:flex-start}
+.status .ring{width:22px;height:22px;border-radius:50%;border:1.5px solid var(--app-ink2);flex:none;
+  position:relative;margin-top:1px}
+.status .ring::after{content:"";position:absolute;left:6.5px;top:5px;width:5px;height:9px;
+  border:solid var(--app-ink2);border-width:0 1.5px 1.5px 0;transform:rotate(42deg)}
+.status b{display:block;font-size:17px;font-weight:700;line-height:1.25;color:var(--app-ink)}
+.status span{display:block;font-size:13.5px;color:var(--app-ink2);margin-top:1px}
+
+.stiles{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}
+.stile{border-radius:14px;padding:11px 12px 12px}
+.stile.p{background:var(--pink)} .stile.t{background:var(--tan)} .stile.b{background:var(--blue)}
+.stile em{font-style:normal;display:block;font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;font-weight:700}
+.stile.p em{color:var(--pink-ink)} .stile.t em{color:var(--tan-ink)} .stile.b em{color:var(--blue-ink)}
+.stile b{display:block;font-family:Fraunces,Georgia,serif;font-size:30px;font-weight:600;line-height:1.05;
+  font-variant-numeric:tabular-nums;margin:5px 0 2px}
+.stile.p b{color:var(--pink-ink)} .stile.t b{color:var(--tan-ink)} .stile.b b{color:var(--blue-ink)}
+.stile span{display:block;font-size:11.5px;color:var(--app-ink2)}
+
+.acts{display:flex;gap:9px}
+.acts button{flex:1;font-family:inherit;font-size:14.5px;font-weight:700;padding:13px 6px;border-radius:999px;
+  cursor:pointer;border:0;display:flex;align-items:center;justify-content:center;gap:7px}
+.acts .solid{background:var(--app-navy);color:var(--app-onnavy)}
+.acts .ghost{background:var(--app-card);color:var(--app-ink)}
+.acts button:hover{opacity:.9}
+.acts button[disabled]{opacity:.45;cursor:default}
+
+.ctrls{background:var(--app-card);border-radius:16px;overflow:hidden}
+.crow{display:flex;align-items:center;gap:12px;padding:13px 14px;border-bottom:1px solid var(--app-line)}
+.crow:last-child{border-bottom:0}
+.crow .ic{width:30px;height:30px;border-radius:50%;background:var(--pink);flex:none}
+.crow div{flex:1;min-width:0}
+.crow b{display:block;font-size:15px;font-weight:700;line-height:1.3;color:var(--app-ink)}
+.crow span{display:block;font-size:12.5px;color:var(--app-ink2);line-height:1.35;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.crow i{font-style:normal;color:var(--app-ink2);font-size:17px;flex:none}
+
+.arows{background:var(--app-card);border-radius:16px;overflow:hidden}
+.arow{display:flex;gap:11px;align-items:center;padding:11px 13px;border-bottom:1px solid var(--app-line)}
+.arow:last-child{border-bottom:0}
+.arow .t{font-size:13px;font-variant-numeric:tabular-nums;color:var(--app-ink2);width:50px;flex:none;font-weight:600}
+.arow .st{width:3px;align-self:stretch;border-radius:2px;background:var(--app-navy);flex:none}
+.arow.free .st{background:var(--track)} .arow.blk .st{background:var(--tips)}
+.arow .nm{flex:1;min-width:0}
+.arow .nm b{display:block;font-size:14.5px;font-weight:700;line-height:1.3;color:var(--app-ink)}
+.arow .nm span{display:block;font-size:12px;color:var(--app-ink2);line-height:1.35}
+.arow.free .nm b{color:var(--app-ink2);font-weight:500}
+.arow.blk{background:var(--tan)} .arow.blk .nm b{color:var(--tips)}
+.tagnew{font-size:9.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:3px 7px;
+  border-radius:5px;background:var(--app-navy);color:var(--app-onnavy);flex:none}
+
+.top .tr{display:flex;align-items:center;gap:11px;padding:9px 0;border-bottom:1px solid var(--app-line)}
+.top .tr:last-child{border-bottom:0}
+.top .rk{font-size:11px;color:var(--app-ink2);font-variant-numeric:tabular-nums;width:18px;flex:none}
+.top .nm{flex:1;min-width:0}
+.top .nm b{display:block;font-size:15px;font-weight:700;color:var(--app-ink);line-height:1.25}
+.top .nm span{display:block;font-size:12px;color:var(--app-ink2)}
+.top .amt{font-size:16px;font-weight:700;font-variant-numeric:tabular-nums;color:var(--app-ink)}
+.ch{font-size:14.5px;font-weight:700;color:var(--app-ink);margin-bottom:11px}
+
+.dbars{display:flex;align-items:flex-end;gap:3px;height:96px}
+.dbars .col{flex:1;display:flex;flex-direction:column;justify-content:flex-end;gap:2px;height:100%}
+.dbars .col i{display:block;border-radius:3px 3px 0 0}
+.dbars .col i.tip{background:var(--tips)}
+.dbars .col i.pay{background:var(--paid);border-radius:0}
+.dbars .col.first i.pay{border-radius:0}
+.axis{display:flex;justify-content:space-between;font-size:11px;color:var(--app-ink2);
+  padding-top:7px;margin-top:7px;border-top:1px solid var(--app-line)}
+.leg{display:flex;gap:18px;margin-top:11px;padding-top:11px;border-top:1px solid var(--app-line)}
+.leg span{display:flex;align-items:center;gap:7px;font-size:11.5px;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--app-ink2);font-weight:600}
+.leg i{width:9px;height:9px;border-radius:50%;display:inline-block}
+
+.svc{display:flex;flex-direction:column;gap:11px}
+.svc .s{display:flex;flex-direction:column;gap:5px}
+.svc .hd{display:flex;justify-content:space-between;align-items:baseline}
+.svc .hd b{font-size:14.5px;font-weight:500;color:var(--app-ink)}
+.svc .hd span{font-size:14.5px;color:var(--app-ink2);font-variant-numeric:tabular-nums}
+.svc .tk{height:7px;border-radius:4px;background:var(--track);overflow:hidden}
+.svc .tk i{display:block;height:100%;background:var(--app-navy);border-radius:4px}
+
+.igp{background:var(--pink);border:1px solid rgba(154,74,60,.18);border-radius:16px;padding:14px}
+.igp .hd{display:flex;gap:11px;align-items:center;margin-bottom:12px}
+.igp .bad{width:32px;height:32px;border-radius:50%;background:linear-gradient(135deg,#D6376B,#B8348F);flex:none}
+.igp .hd b{display:block;font-family:Fraunces,Georgia,serif;font-size:18px;font-weight:600;color:var(--app-ink);line-height:1.2}
+.igp .hd span{display:block;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--pink-ink);font-weight:700;margin-top:2px}
+.fun{display:grid;grid-template-columns:1fr 16px 1fr;gap:8px;align-items:center}
+.fun .fb{background:rgba(253,252,250,.75);border-radius:12px;padding:10px 8px;text-align:center}
+.fun .fb.dark{background:var(--app-navy)}
+.fun .fb b{display:block;font-family:Fraunces,Georgia,serif;font-size:22px;font-weight:600;
+  font-variant-numeric:tabular-nums;color:var(--app-ink);line-height:1.1}
+.fun .fb.dark b{color:var(--app-onnavy)}
+.fun .fb em{font-style:normal;display:block;font-size:9.5px;letter-spacing:.09em;text-transform:uppercase;
+  color:var(--app-ink2);margin-top:3px;font-weight:600}
+.fun .fb.dark em{color:var(--app-onnavy);opacity:.8}
+.fun .ar{text-align:center;color:var(--app-ink2);font-size:14px}
+
+.src .sr{padding:11px 0;border-bottom:1px solid var(--app-line)}
+.src .sr:last-child{border-bottom:0}
+.src .t1{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.src .t1 b{font-size:15px;font-weight:700;color:var(--app-ink)}
+.src .t1 span{font-size:15px;color:var(--app-ink2);font-variant-numeric:tabular-nums}
+.src .t2{display:flex;gap:20px;margin-top:5px}
+.src .t2 div b{display:block;font-size:13.5px;font-weight:700;color:var(--app-ink);font-variant-numeric:tabular-nums}
+.src .t2 div span{display:block;font-size:9.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--app-ink2);font-weight:600}
+.tline{display:flex;flex-direction:column}
+.tev{display:flex;gap:12px;padding:10px 0;border-bottom:1px solid var(--app-line)}
+.tev:last-child{border-bottom:0}
+.tev .tm{font-size:12px;font-variant-numeric:tabular-nums;color:var(--app-ink2);width:60px;flex:none;font-weight:600;padding-top:1px}
+.tev .td{flex:1;min-width:0}
+.tev .td b{display:block;font-size:14.5px;font-weight:700;color:var(--app-ink);line-height:1.3}
+.tev .td span{display:block;font-size:12.5px;color:var(--app-ink2);line-height:1.35}
+.tev.hit .td b{color:var(--paid)}
+.rhd{display:flex;align-items:center;gap:11px}
+.rhd .orb{width:44px;height:44px;border-radius:50%;background:var(--app-navy);flex:none;
+  display:flex;align-items:center;justify-content:center;color:var(--app-onnavy);font-size:17px}
+.rhd .rt{flex:1;min-width:0}
+.rhd .rt b{display:block;font-family:Fraunces,Georgia,serif;font-size:23px;font-weight:600;
+  color:var(--app-ink);line-height:1.1}
+.rhd .rt span{display:flex;align-items:center;gap:6px;font-size:14px;color:var(--app-ink2);margin-top:1px}
+.rhd .rt span i{width:7px;height:7px;border-radius:50%;background:var(--tips);display:inline-block;flex:none}
+.notify{background:linear-gradient(100deg,#D6376B,#B8348F);color:#fff;border:0;border-radius:999px;
+  font-family:inherit;font-size:13px;font-weight:700;padding:11px 15px;flex:none;cursor:default}
+.rtabs{display:flex;gap:9px}
+.rtabs span{flex:1;text-align:center;font-size:14px;font-weight:500;padding:10px 4px;border-radius:999px;
+  background:var(--app-card);color:var(--app-ink2)}
+.rtabs span.on{background:var(--tips);color:#fff;font-weight:700}
+.convs{display:flex;flex-direction:column;gap:10px}
+.conv{background:var(--app-card);border-radius:16px;padding:13px 14px;display:flex;gap:12px;align-items:flex-start}
+.conv .bub{width:26px;height:26px;flex:none;border-radius:50%;border:1.5px solid var(--app-ink2);
+  border-bottom-left-radius:4px;margin-top:2px}
+.conv .cb{flex:1;min-width:0}
+.conv .r1{display:flex;align-items:baseline;gap:9px}
+.conv .r1 b{font-size:15.5px;font-weight:700;color:var(--app-ink);flex:1;min-width:0}
+.conv .r1 em{font-style:normal;font-size:10px;letter-spacing:.09em;text-transform:uppercase;font-weight:700;color:var(--tips)}
+.conv .pv{font-size:13.5px;color:var(--app-ink2);line-height:1.35;margin-top:3px;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.conv .dt{font-size:11.5px;color:var(--app-ink2);opacity:.75;margin-top:5px}
+.anote{font-size:12.5px;color:var(--app-ink2);line-height:1.45;padding:0 2px}
+.fab{position:absolute;right:16px;bottom:92px;width:44px;height:44px;border-radius:50%;
+  background:var(--app-ink);opacity:.92;pointer-events:none;display:none;
+  align-items:center;justify-content:center;color:var(--app-bg);font-size:17px;font-weight:700;z-index:4}
+.phone.app-on .fab{display:flex}
+.phone{position:relative}
+.ctrl{display:flex;flex-direction:column;gap:9px;padding:12px 14px;background:var(--chrome);border-top:1px solid var(--rule)}
+.phone.app-on .ctrl{background:var(--app-card);border-top-color:var(--app-line)}
+.phone.app-on .adv{background:var(--app-navy);color:var(--app-onnavy)}
+.phone.app-on .hint{color:var(--app-ink2)}
+.phone.story-on .ctrl{background:var(--story-bg);border-top-color:rgba(247,244,238,.16)}
+.phone.story-on .adv{background:var(--story-ink);color:#211F1B}
+.phone.story-on .hint{color:var(--story-dim)}
+.adv{font-family:inherit;font-size:15px;font-weight:700;padding:13px;border-radius:999px;
+  border:0;cursor:pointer;background:var(--brand);color:var(--ground);width:100%}
+.adv:hover{opacity:.92}
+.adv[disabled]{opacity:.35;cursor:default}
+.choice{display:flex;gap:9px}
+.choice button{flex:1;font-family:inherit;font-size:14.5px;font-weight:700;padding:13px 8px;
+  border-radius:999px;cursor:pointer;border:1.5px solid var(--brand);background:transparent;color:var(--ink)}
+.choice button.yes{background:var(--brand);color:var(--ground);border-color:var(--brand)}
+.choice button:hover{opacity:.9}
+.hint{font-size:12px;color:var(--ink-3);text-align:center;line-height:1.4}
+.day-act{background:var(--brand);color:var(--ground)}
+
+.narr{background:var(--surface);border-left:3px solid var(--sage);padding:15px 18px;min-height:78px;
+  display:flex;flex-direction:column;justify-content:center;gap:4px}
+.narr b{font-family:Fraunces,Georgia,serif;font-size:17.5px;font-weight:600;line-height:1.25}
+.narr p{margin:0;color:var(--ink-2);font-size:14.5px;line-height:1.5}
+
+.outro{display:none;flex-direction:column;gap:16px}
+.outro.on{display:flex}
+.tally{display:flex;flex-direction:column;border-top:1px solid var(--rule)}
+.tally div{display:flex;gap:13px;padding:12px 2px;border-bottom:1px solid var(--rule);
+  font-size:15px;line-height:1.45;align-items:flex-start}
+.tally .tick{width:18px;height:18px;flex:none;margin-top:2px;border-radius:50%;background:var(--sage);position:relative}
+.tally .tick::after{content:"";position:absolute;left:6px;top:3.5px;width:4.5px;height:9px;
+  border:solid var(--ground);border-width:0 2px 2px 0;transform:rotate(42deg)}
+.setup{counter-reset:s;display:flex;flex-direction:column;border-top:1px solid var(--rule)}
+.st{display:flex;gap:15px;padding:14px 2px;border-bottom:1px solid var(--rule);align-items:baseline}
+.st::before{counter-increment:s;content:counter(s);font-family:Fraunces,Georgia,serif;
+  font-size:18px;color:var(--sage);flex:none;width:16px;font-weight:600}
+.st b{display:block;font-weight:700;font-size:15.5px}
+.st span{display:block;color:var(--ink-2);font-size:14.5px;line-height:1.5;margin-top:1px}
+h2{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:24px;letter-spacing:-.015em;margin:0 0 2px}
+.close{background:var(--brand);color:var(--ground);padding:24px 22px;display:flex;flex-direction:column;gap:10px}
+.close h2{color:inherit}
+.close p{margin:0;font-size:16px;line-height:1.55;opacity:.93}
+.replay{font-family:inherit;font-size:13px;font-weight:700;padding:11px 18px;border-radius:999px;
+  border:1.5px solid var(--rule-2);background:transparent;color:var(--ink-2);cursor:pointer;align-self:center}
+.replay:hover{color:var(--ink);border-color:var(--ink-3)}
+footer{color:var(--ink-3);font-size:13.5px;text-align:center;line-height:1.6}
+:focus-visible{outline:2px solid var(--sage);outline-offset:3px}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+
+<div class="wrap">
+
+<header>
+  <div class="eyebrow">Booked Out</div>
+  <h1>We found your Mane Love Salon & Extension Bar page.<br><em>Here it is, fixed.</em></h1>
+  <p class="deck">Everything below comes from manelove.isabellaa's public posts. Tap through the demo &mdash; you'll approve a patient yourself, then see the book it lands on. Nothing here sends a real message.</p>
+</header>
+
+<section class="words">
+  <p class="wnote"><b>Five things you've posted this year.</b> Each one has a number. When the demo gets to the part that handles it, that number comes back.</p>
+
+  <div class="qc"><span class="pin">1</span><div class="qb">
+    <q>Click the link in my bio to book!!</q>
+    <span class="src">IG post, Aug 31 2026 — @manelove.isabella</span>
+    <span class="fix">One link that actually books — no bio hop, no dead end.</span>
+  </div></div>
+
+  <div class="qc"><span class="pin">2</span><div class="qb">
+    <q>Message me or click the link in my bio to book</q>
+    <span class="src">IG post, June 2 2026 — lived-in blonde</span>
+    <span class="fix">Every DM that says “how do I book?” gets answered and booked for you.</span>
+  </div></div>
+
+  <div class="qc"><span class="pin">3</span><div class="qb">
+    <q>Call/Text (417) 691-5880 to book your appointment</q>
+    <span class="src">IG post — “Dark, Glossy and unforgettable”</span>
+    <span class="fix">Texts get booked without you picking up the phone mid-foil.</span>
+  </div></div>
+
+  <div class="qc"><span class="pin">4</span><div class="qb">
+    <q>We recommend booking at least 3-4 weeks ahead, especially for color and extension services. If you need something sooner, reach out and we'll do our best to make it work.</q>
+    <span class="src">manelovesalon.com FAQ — “How far in advance should I book?”</span>
+    <span class="fix">“Reach out and we'll try” becomes a waitlist that fills your cancellations itself.</span>
+  </div></div>
+
+  <div class="qc"><span class="pin">5</span><div class="qb">
+    <q>Do I need a consultation before booking? Not always, but for big changes (major color, extensions, vivids), we recommend it.</q>
+    <span class="src">manelovesalon.com FAQ + “Hair extensions — Pricing Upon Consultation”</span>
+    <span class="fix">Consults get screened and scheduled before they ever reach your chair.</span>
+  </div></div>
+</section>
+
+<div class="who"><span class="dot"></span><span id="whoLabel">Kayla's phone &middot; watching your Story</span></div>
+
+<div class="phone" id="phone">
+  <div class="prog" id="prog"></div>
+  <div class="bar"><span>9:41</span><span id="barApp">Instagram</span></div>
+  <div class="hdr" id="hdr"><div class="av" id="av">A</div><div><b id="hdrName">manelove.isabellaa</b><small id="hdrSub">Active now</small></div></div>
+  <div class="screen story" id="screen"></div>
+  <div class="fab" id="fab" aria-hidden="true">⇄</div>
+  <div class="ctrl" id="ctrl"></div>
+</div>
+
+<div class="narr" id="narr"></div>
+
+<div class="outro" id="outro">
+  <section>
+    <h2>Back to your five posts</h2>
+    <div class="map" id="tally"></div>
+  </section>
+  <button class="replay" id="replay">Play it again</button>
+  <section>
+    <h2>Getting you set up</h2>
+    <div class="setup">
+      <div class="st"><div><b>Connect your Instagram</b><span>One tap from your business account. We only handle messages &mdash; we never post as you.</span></div></div>
+      <div class="st"><div><b>What you offer</b><span>Each service, what it costs, how long it takes. Send a photo of your price list and we'll read it in.</span></div></div>
+      <div class="st"><div><b>When you work</b><span>Your hours, plus anything you want kept clear. Connect your Google Calendar and we'll read around what's already on it.</span></div></div>
+    </div>
+  </section>
+  <div class="close">
+    <h2>What we're asking</h2>
+    <p>Use it for two weeks with your real clients, then tell us exactly what's wrong with it. You'd be one of the first, which means the parts that annoy you are the parts that get changed.</p>
+    <p>We're still working out what this should cost, and we'd rather set that with you than at you.</p>
+  </div>
+</div>
+
+<footer>Questions before you commit to anything &mdash; just ask.</footer>
+</div>
+
+<script>
+const NAME="Isabella", HANDLE="manelove.isabellaa", NAME_PH="Isabella";
+let blockedMorning=false;
+
+/* ---------- panel builders ---------- */
+function el(t,c,txt){const e=document.createElement(t);if(c)e.className=c;if(txt!=null)e.textContent=txt;return e;}
+function eyeb(t){return el("div","eyeb",t);}
+function ptitle(t){return el("div","ptitle",t);}
+function card(){return el("div","acard");}
+
+function tabs(active){const d=el("div","tabs");
+  for(const t of ["Today","Day","Week","Month"]) d.appendChild(el("span",t===active?"on":null,t));
+  return d;}
+function stile(cls,label,val,sub){const d=el("div","stile "+cls);
+  d.appendChild(el("em",null,label));d.appendChild(el("b",null,val));d.appendChild(el("span",null,sub));return d;}
+function crow(t,sub){const r=el("div","crow");r.appendChild(el("div","ic"));
+  const d=el("div");d.appendChild(el("b",null,t));d.appendChild(el("span",null,sub));
+  r.appendChild(d);r.appendChild(el("i",null,"›"));return r;}
+function arow(time,who,sub,kind,tag){const r=el("div","arow"+(kind?" "+kind:""));
+  r.appendChild(el("div","t",time));r.appendChild(el("div","st"));
+  const n=el("div","nm");n.appendChild(el("b",null,who));if(sub)n.appendChild(el("span",null,sub));
+  r.appendChild(n);if(tag)r.appendChild(el("span","tagnew",tag));return r;}
+function dayList(){const w=el("div","arows");
+  w.appendChild(blockedMorning?arow("9:00","Blocked","Personal — nobody is told why","blk")
+                              :arow("9:00","Open",null,"free"));
+  w.appendChild(arow("11:30","Marcus T.","dimensional blonding"));
+  w.appendChild(BRANCH==="decline"?arow("12:45","Open",null,"free")
+                                  :arow("12:45","Kayla R.","dimensional blonding · paid",null,"New"));
+  w.appendChild(arow("3:30","Priya S.","60-minute cut & color"));
+  w.appendChild(arow("4:45","Open",null,"free"));
+  return w;}
+
+const PANELS={
+  bookie(){const f=document.createDocumentFragment();
+    const h=el("div","rhd");
+    h.appendChild(el("div","orb","((\u2022))"));
+    const rt=el("div","rt");rt.appendChild(el("b",null,"Receptionist"));
+    const on=el("span");on.appendChild(el("i"));on.appendChild(document.createTextNode("Online"));
+    rt.appendChild(on);h.appendChild(rt);
+    h.appendChild(el("button","notify","Notify Socials"));
+    f.appendChild(h);
+    const tb=el("div","rtabs");
+    for(const t of ["Chat","SMS","History"]) tb.appendChild(el("span",t==="History"?"on":null,t));
+    f.appendChild(tb);
+    const cv=el("div","convs");
+    const rows=[["Kayla R.","INSTAGRAM","Holding Wed 10/15 at 12:45 — dimensional blonding…","Today"],
+                ["Maya Patel","INSTAGRAM","Rebooked for the 22nd, same time as…","Yesterday"],
+                ["Unknown","INSTAGRAM","Do you do prenatal? — Yes, 60 or 90…","Oct 9"],
+                ["Tom B.","TEXT","Sorry, nothing left this week. Next open…","Oct 7"]];
+    for(const r of rows){const c=el("div","conv");c.appendChild(el("div","bub"));
+      const cb=el("div","cb");const r1=el("div","r1");
+      r1.appendChild(el("b",null,r[0]));r1.appendChild(el("em",null,r[1]));
+      cb.appendChild(r1);cb.appendChild(el("div","pv",r[2]));cb.appendChild(el("div","dt",r[3]));
+      c.appendChild(cb);cv.appendChild(c);}
+    f.appendChild(cv);
+    return f;},
+
+  fill(){const f=document.createDocumentFragment();
+    f.appendChild(eyeb("Waitlist"));
+    f.appendChild(ptitle("12:45 just opened"));
+    f.appendChild(el("div","psub","Priya cancelled at 9:40 this morning"));
+    const c=card();
+    const tl=el("div","tline");
+    const rows=[["9:40 AM","Priya S. cancelled","Same day — under your 24-hour notice"],
+                ["9:40 AM","Offered to 34 on the waitlist","In order, all at once"],
+                ["9:44 AM","Maya Patel took it","Deposit paid, reminder set"],
+                ["9:44 AM","Waitlist now 33","Everyone else told it's gone"]];
+    rows.forEach((r,k)=>{const t=el("div","tev"+(k===2?" hit":""));
+      t.appendChild(el("div","tm",r[0]));
+      const d=el("div","td");d.appendChild(el("b",null,r[1]));d.appendChild(el("span",null,r[2]));
+      t.appendChild(d);tl.appendChild(t);});
+    c.appendChild(tl);f.appendChild(c);
+    f.appendChild(el("div","anote","Four minutes, and you were with a patient the whole time. Your late-cancel fee still applied."));
+    return f;},
+
+  calendar(){const f=document.createDocumentFragment();
+    f.appendChild(tabs("Today"));
+    const st=el("div","status");st.appendChild(el("div","ring"));
+    const d=el("div");d.appendChild(el("b",null,(BRANCH==="decline"?"3":"4")+" on the books today"));
+    d.appendChild(el("span",null,"Next is Marcus T. at 11:30."));st.appendChild(d);
+    f.appendChild(st);
+    const g=el("div","stiles");
+    g.appendChild(stile("p","This week","11","visits"));
+    g.appendChild(stile("t","Today",BRANCH==="decline"?"3":"4","booked"));
+    g.appendChild(stile("b","Upcoming",BRANCH==="decline"?"3":"2","left today"));
+    f.appendChild(g);
+    const ac=el("div","acts");
+    const see=el("button","solid","See today");see.onclick=()=>next();
+    const blk=el("button","ghost","Block off");blk.disabled=true;
+    ac.append(see,blk);f.appendChild(ac);
+    f.appendChild(eyeb("Schedule controls"));
+    const c=el("div","ctrls");
+    c.appendChild(crow("Manage Rules","Hours, buffer, lunch break"));
+    c.appendChild(crow("View Availability","Open slots across the week"));
+    c.appendChild(crow("Adjust a Day's Hours","Late start, early leave, day off"));
+    c.appendChild(crow("Block Entire Day","Make a date unavailable"));
+    f.appendChild(c);
+    return f;},
+
+  today(){const f=document.createDocumentFragment();
+    f.appendChild(tabs("Day"));
+    f.appendChild(eyeb("Wednesday 15 October"));
+    f.appendChild(ptitle("Your day"));
+    f.appendChild(dayList());
+    const ac=el("div","acts");
+    const blk=el("button","solid","Block off my morning");blk.onclick=()=>{blockedMorning=true;next();};
+    ac.appendChild(blk);f.appendChild(ac);
+    return f;},
+
+  blocked(){const f=document.createDocumentFragment();
+    f.appendChild(tabs("Day"));
+    f.appendChild(eyeb("Wednesday 15 October"));
+    f.appendChild(ptitle("Your day"));
+    f.appendChild(dayList());
+    f.appendChild(el("div","anote","Your open 9:00 came straight out of your openings. Marcus stays exactly where he was — blocking time never cancels anyone."));
+    return f;},
+
+  clients(){const f=document.createDocumentFragment();
+    f.appendChild(eyeb("People"));
+    f.appendChild(ptitle("Clients"));
+    f.appendChild(el("div","psub","New, returning, and your top spenders"));
+    const g=el("div","stiles");
+    g.appendChild(stile("p","New","6","this month"));
+    g.appendChild(stile("t","Returning","32","this month"));
+    g.appendChild(stile("b","Repeat rate","84%",""));
+    f.appendChild(g);
+    const c=card();c.appendChild(el("div","ch","Top clients"));
+    const t=el("div","top");
+    const rows=[["Maya Patel","6 visits","$720"],["Jordan Reyes","5 visits","$600"],
+      ["Sam Chen","4 visits","$540"],["Priya Kapoor","4 visits","$480"],["Nina Alvarez","3 visits","$360"]];
+    rows.forEach((r,k)=>{const tr=el("div","tr");
+      tr.appendChild(el("div","rk",String(k+1).padStart(2,"0")));
+      const n=el("div","nm");n.appendChild(el("b",null,r[0]));n.appendChild(el("span",null,r[1]));
+      tr.appendChild(n);tr.appendChild(el("div","amt",r[2]));t.appendChild(tr);});
+    c.appendChild(t);f.appendChild(c);
+    return f;},
+
+  revenue(){const f=document.createDocumentFragment();
+    f.appendChild(eyeb("Money"));
+    f.appendChild(ptitle("Revenue"));
+    f.appendChild(el("div","psub","Daily flow and where it comes from"));
+    const c=card();
+    const bars=el("div","dbars");
+    const days=[[360,40],[480,55],[420,30],[240,25],[480,60],[360,35],[600,70],[480,45],
+                [300,20],[420,50],[540,60],[360,40]];
+    const max=670;
+    for(const [pay,tip] of days){const col=el("div","col");
+      const t=el("i","tip");t.style.height=Math.round(tip/max*96)+"px";
+      const q=el("i","pay");q.style.height=Math.round(pay/max*96)+"px";
+      col.append(t,q);bars.appendChild(col);}
+    c.appendChild(bars);
+    const ax=el("div","axis");ax.appendChild(el("span",null,"Oct 1"));
+    ax.appendChild(el("span",null,"Oct 15"));ax.appendChild(el("span",null,"Oct 29"));
+    c.appendChild(ax);
+    const lg=el("div","leg");
+    for(const [lab,col] of [["Paid","var(--paid)"],["Tips","var(--tips)"]]){
+      const sp=el("span");const i=el("i");i.style.background=col;sp.append(i,document.createTextNode(lab));lg.appendChild(sp);}
+    c.appendChild(lg);f.appendChild(c);
+    const c2=card();c2.appendChild(el("div","ch","Revenue by service"));
+    const sv=el("div","svc");
+    const svc=[["dimensional blonding",2880,2880],["60-minute cut & color",1350,2880],["Deep tissue add-on",330,2880]];
+    for(const [n,v,mx] of svc){const s1=el("div","s");
+      const hd=el("div","hd");hd.appendChild(el("b",null,n));
+      hd.appendChild(el("span",null,"$"+v.toLocaleString()));s1.appendChild(hd);
+      const tk=el("div","tk");const i=el("i");i.style.width=Math.round(v/mx*100)+"%";tk.appendChild(i);
+      s1.appendChild(tk);sv.appendChild(s1);}
+    c2.appendChild(sv);f.appendChild(c2);
+    return f;},
+
+  acquisition(){const f=document.createDocumentFragment();
+    f.appendChild(eyeb("Where they come from"));
+    f.appendChild(ptitle("Acquisition"));
+    f.appendChild(el("div","psub","Source attribution and the Instagram story"));
+    const ig=el("div","igp");
+    const hd=el("div","hd");hd.appendChild(el("div","bad"));
+    const hb=el("div");hb.appendChild(el("b",null,"Instagram receptionist"));
+    hb.appendChild(el("span",null,"40% conversion · $2,280 earned"));
+    hd.appendChild(hb);ig.appendChild(hd);
+    const fn=el("div","fun");
+    function fb(v,l,dark){const d=el("div","fb"+(dark?" dark":""));
+      d.appendChild(el("b",null,v));d.appendChild(el("em",null,l));return d;}
+    fn.append(fb("47","DMs"),el("div","ar","→"),fb("44","Answered for you"),
+              fb("19","Booked"),el("div","ar","→"),fb("$2,280","Revenue",true));
+    ig.appendChild(fn);f.appendChild(ig);
+    const c=card();c.appendChild(el("div","ch","All sources"));
+    const sr=el("div","src");
+    const rows=[["Instagram DM","$2,280","19","18","95%"],
+                ["Text message","$1,800","15","15","100%"],
+                ["Referral","$480","4","4","100%"]];
+    for(const r of rows){const d=el("div","sr");
+      const t1=el("div","t1");t1.appendChild(el("b",null,r[0]));t1.appendChild(el("span",null,r[1]));
+      d.appendChild(t1);
+      const t2=el("div","t2");
+      for(const [v,l] of [[r[2],"Booked"],[r[3],"Showed up"],[r[4],"Show rate"]]){
+        const x=el("div");x.appendChild(el("b",null,v));x.appendChild(el("span",null,l));t2.appendChild(x);}
+      d.appendChild(t2);sr.appendChild(d);}
+    c.appendChild(sr);f.appendChild(c);
+    return f;},
+};
+
+/* ---------- script ---------- */
+const BOOKLINK="booqt.com/book/9d7be7df";
+const STEPS=[
+ {view:"dm",who:"Kayla's phone · her Instagram",from:"us",re:"Replied to your story",
+  text:"Hi! Do you have anything the week of the 13th?",
+  pin:3,nb:"It lands where she already was.",np:"Kayla never left Instagram, never downloaded anything, never filled in a form."},
+ {view:"dm",from:"them",
+  text:"Week of the 13th — 4 slots open:\n\nMon 3:30 PM · Wed 11:30 AM\nWed 12:45 PM · Wed 3:30 PM\n\nWhich one?",
+  pin:5,nb:"Answered in seconds.",np:"Those are live times, pulled off your book as it stands right now. Nothing typed out, nothing to screenshot."},
+ {view:"dm",from:"us",text:"Wed 12:45",
+  nb:"You are with a client.",np:"Your phone is face down. You have not seen any of this."},
+ {view:"dm",from:"them",
+  text:"Holding Wed 10/15 at 12:45 — dimensional blonding, $140.\n\n"+NAME_PH+" approves new clients herself, so give me a couple of minutes.\n\nBook here: ",link:BOOKLINK,
+  nb:"It tells her the truth.",np:"Kayla knows a person is deciding, and that the time is held while that happens."},
+ {view:"sms",who:"Your phone · text message",from:"them",
+  text:"New client Kayla R. replied to your Story — wants Wed 10/15 at 12:45, dimensional blonding. Reply 1 to accept, 2 to decline.",
+  pin:2,nb:"Now it's your turn.",np:"One text, on your own phone. You don't open Instagram and you don't open your calendar."},
+ {decision:true,nb:"Your call, every time.",np:"No is a real answer here. Try either one."},
+];
+const ACCEPT=[
+ {view:"sms",from:"us",text:"1"},
+ {view:"sms",from:"them",text:"Booked. Kayla is confirmed for Wed 10/15 at 12:45. Deposit link sent, and I'll remind her on Tuesday.",
+  nb:"Done, in one character.",np:"It went on your calendar, took her deposit, and set her reminder."},
+ {view:"dm",who:"Kayla's phone · her Instagram",from:"them",
+  text:"You're confirmed for Wednesday 10/15 at 12:45. Pay your deposit and add it to your calendar here: ",link:BOOKLINK,
+  nb:"She hears back straight away.",np:"You still haven't touched your phone since you typed one character."},
+ {view:"dm",from:"us",text:"amazing, thank you!!",
+  nb:"That's the client side done.",np:"Now the part you actually live in."},
+];
+const DECLINE=[
+ {view:"sms",from:"us",text:"2"},
+ {view:"sms",from:"them",text:"Understood. Kayla's on the waitlist and I've told her where she stands. That's 27 waiting now — I'll work down the list whenever something frees up.",
+  pin:1,nb:"The waitlist runs itself.",np:"She is on the list, in order, and she knows what the wait looks like. You wrote none of that."},
+ {view:"dm",who:"Kayla's phone · her Instagram",from:"them",
+  text:"Isabella handles new clients herself, so new faces are told where they stand and put on the list.\n\nI've put you on the waitlist — you're 27th. The honest wait is 6 to 12 months, so please don't hold out for her alone.",
+  pin:3,nb:"Your policy, said for you.",np:"That is her own policy, in her own words, delivered kindly, at eleven at night, without you writing it again."},
+];
+const ACT2=[
+ {view:"app",app:"Bookie",panel:"bookie",who:"Your phone · your receptionist",
+  nb:"Every word it has said.",np:"Chat, text and Instagram in one place. Nothing it tells a client is hidden from you."},
+ {view:"app",app:"Calendar",panel:"calendar",who:"Your phone · your book",wait:"Tap “See today”",
+  nb:"Your book, when you open it.",np:"What's on today, what's left, and the controls for your hours — all on one screen."},
+ {view:"app",app:"Calendar",panel:"today",wait:"Tap “Block off my morning”",
+  nb:"Wednesday the 15th.",np:"Kayla is on there, paid, flagged as new. Go on — take your morning back."},
+ {view:"app",app:"Calendar",panel:"blocked",
+  nb:"Your time, taken back.",np:"One tap. No message to write, no graphic to redo, nobody asking why."},
+ {view:"app",app:"Bookie",panel:"fill",
+  pin:4,nb:"A same-day cancellation, filled.",np:"The thing you said there is never enough time for. 27 people heard about it at once, and one of them took it."},
+ {view:"app",app:"Analytics",panel:"clients",
+  nb:"Who keeps coming back.",np:"New against returning, and who your best clients actually are. You never enter any of this."},
+ {view:"app",app:"Analytics",panel:"revenue",
+  nb:"What the month made.",np:"Every day, split between what was paid and what was tipped, and which service earned it."},
+ {view:"app",app:"Analytics",panel:"acquisition",
+  nb:"What Instagram is worth.",np:"Forty-seven DMs, forty-four answered without you, nineteen booked. That is the number nobody can show you today."},
+];
+const MAP=[
+ [1,"Link-in-bio dead end","The link in your bio becomes a real booking, taken while she's still in the app."],
+ [2,"DM-to-book chaos","The DMs still come in — they just come in already booked."],
+ [3,"Phone tag while working","Nobody waits on a callback and you never stop mid-foil to answer one."],
+ [4,"3-4 week wait","27 people wanted sooner. The first opening goes to them automatically."],
+ [5,"Consult gatekeeping","Big-change clients are qualified and booked into a consult slot, not a guess."],
+];
+const TAIL={accept:"You took a new patient, took her deposit, and took your morning back — with one character and one tap.",
+ decline:"You held your line, the waitlist absorbed it kindly, and you took your morning back — with one character and one tap."};
+const phone=document.getElementById("phone"), screen=document.getElementById("screen"),
+  prog=document.getElementById("prog"), ctrl=document.getElementById("ctrl"),
+  narr=document.getElementById("narr"), whoLabel=document.getElementById("whoLabel"),
+  hdrName=document.getElementById("hdrName"), hdrSub=document.getElementById("hdrSub"),
+  av=document.getElementById("av"), barApp=document.getElementById("barApp"),
+  outro=document.getElementById("outro"), tally=document.getElementById("tally"),
+  replay=document.getElementById("replay");
+
+let queue=[], i=0, BRANCH=null, curView="story";
+const threads={dm:[],sms:[]};
+
+function total(){return 1+STEPS.length+(BRANCH==="decline"?DECLINE.length:ACCEPT.length)+ACT2.length}
+function drawProg(done){prog.textContent="";const t=total();
+  for(let k=0;k<t;k++){const b=document.createElement("i");if(k<done)b.className="on";prog.appendChild(b);}}
+function setChrome(v){
+  phone.classList.toggle("story-on",v==="story");
+  phone.classList.toggle("app-on",v==="app");
+  if(v==="dm"){hdrName.textContent=HANDLE;hdrSub.textContent="Business chat";av.textContent="A";barApp.textContent="Instagram";}
+  if(v==="sms"){hdrName.textContent="Booked Out";hdrSub.textContent="Text message";av.textContent="B";barApp.textContent="Messages";}
+  if(v==="app"){hdrSub.textContent="";av.textContent="";barApp.textContent="Booked Out";}
+  document.getElementById("hdr").className="hdr"+(v==="app"?" appbar":v==="dm"?" igbar":"");
+  screen.className="screen"+(v==="story"?" story":v==="app"?" app":"");
+  curView=v;
+}
+function paintThread(){screen.textContent="";
+  for(const m of threads[curView]){
+    const e=el("div","msg "+m.from);
+    if(m.re)e.appendChild(el("span","re",m.re));
+    e.appendChild(document.createTextNode(m.text));
+    if(m.link)e.appendChild(el("span","lnk",m.link));
+    screen.appendChild(e);}
+  screen.scrollTop=screen.scrollHeight;}
+const PINTXT={1:"Link-in-bio dead end",2:"DM-to-book chaos",3:"Phone tag while working",4:"3-4 week wait",5:"Consult gatekeeping"};
+function narrate(b,p,pin){if(!b)return;narr.textContent="";
+  narr.appendChild(el("b",null,b));narr.appendChild(el("p",null,p));
+  if(pin){const c=el("div","callback");c.appendChild(el("span","pin",String(pin)));
+    c.appendChild(el("span",null,PINTXT[pin]+" — handled."));narr.appendChild(c);}}
+function ctrlAdvance(label,disabled,hint){
+  ctrl.textContent="";
+  const b=el("button","adv",label);b.disabled=!!disabled;b.onclick=next;
+  ctrl.appendChild(b);
+  ctrl.appendChild(el("div","hint",hint||"Nothing here sends a real message."));
+}
+function ctrlDecision(){
+  ctrl.textContent="";
+  const row=el("div","choice");
+  const y=el("button","yes","1 — Take her"), n=el("button",null,"2 — Waitlist");
+  y.onclick=()=>choose("accept");n.onclick=()=>choose("decline");
+  row.append(y,n);ctrl.append(row,el("div","hint","Both work. Waitlist is the one you\u2019d pick most days."));
+}
+function choose(w){BRANCH=w;queue=STEPS.concat(w==="accept"?ACCEPT:DECLINE,ACT2);ctrlAdvance("Tap to continue");next();}
+function finish(){
+  drawProg(total());
+  tally.textContent="";
+  for(const [n,t,d] of MAP){const r=el("div","mrow");
+    r.appendChild(el("span","pin",String(n)));
+    const mb=el("div","mb");mb.appendChild(el("b",null,t));mb.appendChild(el("span",null,d));
+    r.appendChild(mb);tally.appendChild(r);}
+  const tl=el("div","mrow");const tb=el("div","mb");
+  tb.appendChild(el("b",null,"And the booking you just watched"));
+  tb.appendChild(el("span",null,TAIL[BRANCH]));
+  tl.appendChild(tb);tally.appendChild(tl);
+  replay.textContent=BRANCH==="accept"?"Play it again — send her to the waitlist instead":"Play it again — take her as a patient instead";
+  outro.classList.add("on");
+  ctrl.textContent="";
+  const b=el("button","adv","Start over");b.onclick=reset;ctrl.appendChild(b);
+  outro.scrollIntoView({behavior:"smooth",block:"start"});
+}
+function next(){
+  if(i>=queue.length){finish();return;}
+  const s=queue[i++];
+  if(s.decision){narrate(s.nb,s.np,s.pin);ctrlDecision();drawProg(i+1);return;}
+  if(s.who)whoLabel.textContent=s.who;
+  if(s.view!==curView)setChrome(s.view);
+  if(s.app)hdrName.textContent=s.app;
+  if(s.panel){screen.textContent="";screen.appendChild(PANELS[s.panel]());screen.scrollTop=0;}
+  else{threads[s.view].push({from:s.from,text:s.text,re:s.re,link:s.link});paintThread();}
+  narrate(s.nb,s.np,s.pin);
+  drawProg(i+1);
+  if(s.wait)ctrlAdvance(s.wait,true,"Use the button on the screen.");
+  else if(i>=queue.length)ctrlAdvance("See what just happened");
+  else ctrlAdvance("Tap to continue");
+}
+function reset(){
+  threads.dm=[];threads.sms=[];i=0;BRANCH=null;blockedMorning=false;
+  queue=STEPS.slice();
+  outro.classList.remove("on");
+  whoLabel.textContent="Kayla's phone · watching your Story";
+  setChrome("story");
+  screen.textContent="";
+  screen.appendChild(el("div","hdl","Openings this month"));
+  screen.appendChild(el("div","sub","Always current. Tap and I'll show you what's actually open right now."));
+  const c=el("button","cta","Book with "+NAME);c.onclick=start;screen.appendChild(c);
+  screen.appendChild(el("div","foot","Tap the button to start"));
+  narrate("She posts once.","No list of times to keep up to date, and nothing to screenshot. Whoever taps gets whatever is genuinely open.");
+  ctrlAdvance("Tap the button above",true,"Use the button on the screen.");
+  drawProg(0);
+}
+function start(){ctrlAdvance("Tap to continue");next();}
+replay.onclick=()=>{const o=BRANCH==="accept"?"decline":"accept";reset();
+  ctrlAdvance("Tap to continue");
+  while(i<STEPS.length-1)next();
+  next();choose(o);};
+reset();
+</script>
+
+</body>
+</html>
