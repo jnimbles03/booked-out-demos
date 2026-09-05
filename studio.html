@@ -98,12 +98,12 @@ footer{padding:10px 16px calc(10px + env(safe-area-inset-bottom));border-top:1px
   <section class="view on" id="v-shelf">
     <div class="rail-label">Glen Ellyn · Hinsdale · Naperville · Downers Grove</div>
     <div class="rail" id="rail-ready"></div>
-    <div class="rail-label">Needs 5 pins — record their words first</div>
+    <div class="rail-label">Not ready yet — we still need their own words</div>
     <div class="rail" id="rail-todo"></div>
   </section>
   <section class="view" id="v-shop"></section>
 </main>
-<footer>tap a shop → see its story → <b>Build demo</b> when you're standing at the door</footer>
+<footer>Tap a shop. See what we know about them. <b>Make their demo</b> while you're standing at the door.</footer>
 <script>
 const API="https://booqt.com";
 let DATA=null, cur=null;
@@ -125,8 +125,8 @@ function render(){
 }
 function cardHTML(p,i){
   const idx=DATA.indexOf(p);
-  const badge=p.demo?"<span class='badge done'>DEMO LIVE</span>"
-    :p.pins.length?"<span class='badge pins'>"+p.pins.length+"/5 PINS</span>"
+  const badge=p.demo?"<span class='badge done'>READY TO SHOW</span>"
+    :p.pins.length?"<span class='badge pins'>NOT READY — need their words</span>"
     :"<span class='badge new'>NEW</span>";
   const pct=Math.round(p.pins.length/5*100);
   return `<div class="card" data-i="${idx}"><div class="thumb">${emoji(p.vertical)}</div>${badge}
@@ -159,15 +159,15 @@ function shopHTML(p){
       ${p.why?`<div class="angle">${esc(p.why)}</div>`:""}
       ${p.contact?`<div class="angle">📞 ${esc(p.contact)}</div>`:""}</div>
     <div class="step ${p.pins.length>=5?'ok':''}"><div class="head"><span class="num">2</span>
-      <h4>Their words — ${p.pins.length}/5 pins</h4></div>
-      <div class="pinlist">${pins||"<div class='angle'>no pins recorded yet — lift 5 quotes from their IG/posts at the shop</div>"}</div></div>
-    <div class="step"><div class="head"><span class="num">3</span><h4>Build</h4>
-      <span class="st" id="st3">${p.demo?"live":"ready to fire"}</span></div>
-      ${p.demo?`<button class="btn" id="watch">▶ Watch the live tour (real UI)</button>
-        <button class="btn ghost" id="watchold">Story demo (quotes first)</button>`:
+      <h4>What they actually said — ${p.pins.length} of 5 collected</h4></div>
+      <div class="pinlist">${pins||"<div class='angle'>Nothing written down yet. Collect 5 things the owner says about booking headaches — from their Instagram, their website, or out of their mouth at the counter.</div>"}</div></div>
+    <div class="step"><div class="head"><span class="num">3</span><h4>Make the demo</h4>
+      <span class="st" id="st3">${p.demo?"live":"ready to make"}</span></div>
+      ${p.demo?`<button class="btn" id="watch">▶ Show them the app, live</button>
+        <button class="btn ghost" id="watchold">Old quote-style demo</button>`:
         `<textarea id="notes" rows="2" placeholder="anything Steve noticed at the door (optional)"></textarea>
-         <button class="btn" id="build" ${p.pins.length?"":"disabled"}>🔥 Build demo page</button>
-         ${p.pins.length?"":`<button class="btn ghost" id="seq">No Instagram? Sequence the screens on-site →</button>`}
+         <button class="btn" id="build" ${p.pins.length?"":"disabled"}>🔥 Make their demo page</button>
+         ${p.pins.length?"":`<button class="btn ghost" id="seq">No Instagram? Build the tour with them right here →</button>`}
          <div class="status-line" id="stat"></div>`}
     </div>
   </div>`;
