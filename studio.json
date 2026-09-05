@@ -419,10 +419,42 @@
    "vertical": "lashes",
    "contact": "1202P 75th St \u00b7 instagram.com/michelle_chicago_",
    "why": "Posts 'Book your appointment today!' reels \u2014 the exact Ashley CTA pattern",
-   "handle": null,
-   "ig": "https://www.instagram.com/michelle_chicago_",
-   "pins": [],
-   "demo": null
+   "handle": "michelle_chicago_",
+   "ig": "https://www.instagram.com/michelle_chicago_/",
+   "pins": [
+    {
+     "label": "Foreign fill fee",
+     "quote": "?? Please note: Fill appointments with lash extensions from another salon/artist include a $20 Foreign Fill Fee due to additional time required.",
+     "src": "Vagaro booking page \u2014 next to every Book Now button",
+     "fix": "The fee, the reason, and the price \u2014 stated automatically, argued never."
+    },
+    {
+     "label": "Full menu quoted",
+     "quote": "Classic Full Set / Hybrid Full Set $205 / Wispy Full Set $210 / Russian Volume $220",
+     "src": "Vagaro service menu",
+     "fix": "The full menu quoted in the chat, every time."
+    },
+    {
+     "label": "Calls become bookings",
+     "quote": "Call: (630) 822-0201 \u2014 booking by phone for a 5,800-follower page",
+     "src": "Her own website header",
+     "fix": "Every DM and every call becomes a booked slot."
+    },
+    {
+     "label": "Trainee referral network",
+     "quote": "Lash Trainer \u00b7 Judge \u00b7 Speaker \u00b7 Beauty Business Consultant \u2014 she trains other lash artists",
+     "src": "Profile bio",
+     "fix": "Her trainees could run on Booked Out too. One demo, a whole referral network."
+    },
+    {
+     "label": "No login walls",
+     "quote": "Welcome \u2014 the Vagaro booking page demands a sign-in before it shows prices",
+     "src": "Booking flow",
+     "fix": "No login walls. The book is just open."
+    }
+   ],
+   "demo": "https://jnimbles03.github.io/booked-out-demos/michelle_chicago_.html",
+   "angle": null
   },
   {
    "business": "Blue Seas Med Spa",
